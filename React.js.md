@@ -3,12 +3,12 @@
 **Table of contents**
 - [Thinking in React](#thinking-in-react)
   * [Concepts and Keywords](#concepts-and-keywords)
-    + [Components](#components)
-      - [Stateless Components](#stateless-components)
-      - [Stateful Components](#stateful-components)
-      - [State vs Props](#state-vs-props)
-      - [JSX](#jsx)
-      - [Higher-Order Components](#higher-order-components)
+    + Component
+      - Stateless Components
+      - Stateful Components
+      - Higher-Order Components
+    + State vs Props
+    + JSX
 - [API Reference](#api-reference)
   * [React Top-Level API](#react-top-level-api)
   * [ReactDOM](#reactdom)
@@ -36,9 +36,9 @@
 
 ### Concepts and Keywords
 
-#### Components
+**Component**
 
-**Basic building blocks** of React Application are **Components**.
+> Basic building blocks of React Application are Components.
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/1.jpg)
 
@@ -54,26 +54,40 @@ There are **Two Types** of React Components;
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/2.jpg)
 
-##### Stateless Components
+***Stateless Components***
+
 **Pure Function** React Component.
 
 Returns **HTML** Markup.
 
 No **Advanced Component Logics** included.
 
-##### Stateful Components
+***Stateful Components***
+
 JavaScript **Class**
 
 Includes;
 - Local State
-- Constructor
+- Life-cycle methods
 - Advanced Component Logics
 
-##### State vs Props
+***Higher-Order Components***
+
+```js
+const higherOrderComponent = (Component) => {
+  const newProps = {};
+  return (<Component {...newProps} />)
+}
+
+const EnhancedComponent = higherOrderComponent(WrappedComponent);
+```
+
+**State vs Props**
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/3.jpg)
 
-##### JSX
+**JSX**
+
 Stands for **JavaScript XML**.
 
 Allows to write **HTML** in React.js
@@ -89,17 +103,6 @@ ReactDOM.render(CompA, document.getElementById('root'));
 const CompA = React.createElement('h1', {}, 'I do not use JSX!');
 ReactDOM.render(CompA, document.getElementById('root'));
 ```
-##### Higher-Order Components
-
-```js
-const higherOrderComponent = (Component) => {
-  const newProps = {};
-  return (<Component {...newProps} />)
-}
-
-const EnhancedComponent = higherOrderComponent(WrappedComponent);
-```
-
 ## API Reference
 
 ### React Top-Level API

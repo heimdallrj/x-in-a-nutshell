@@ -1,6 +1,6 @@
 # React in a nutshell.
 
-**Table of contents**
+**TOC**
 - [Thinking in React](#thinking-in-react)
   * [Concepts and Keywords](#concepts-and-keywords)
     + [Component](#concepts-and-keywords)
@@ -39,19 +39,23 @@
 
 **Component**
 
-> Basic building blocks of React Application are Components.
+```text
+Basic *building blocks* of React Application are *Components*
+```
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/1.jpg)
 
-A **Component** consists of;
+```text
+A *Component* consists of;
 - HTML Markup
 - Props
 - State
 - Life-cycle
 
-There are **Two Types** of React Components;
+There are *Two Types* of React Components;
 - Stateless
 - Stateful (Class Component)
+```
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/2.jpg)
 

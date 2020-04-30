@@ -333,5 +333,15 @@ ReactDOM.render(
 );
 ```
 
+## Type Checking
+- Prop Types
+- Flow
+- TypeScript
 
+## Web Components
 
+## Accessibility
+
+## Performance optimization
+
+## React Profiler

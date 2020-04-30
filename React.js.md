@@ -28,9 +28,10 @@
 - [Accessibility](#accessibility)
 - [Performance optimization](#performance-optimization)
 - [React Profiler](#react-profiler)
-- [Redux](#redux)
-  * [Redux Middlewares](#redux-middlewares)
-    + [Saga](#saga)
+- [State Management][#state-management]
+  * [Redux](#redux)
+    + [Redux Middlewares](#redux-middlewares)
+      - [Saga](#saga)
 
 ## [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
@@ -325,7 +326,7 @@ const HelloWorld = ({ name }) => (
 class HelloWorld extends React.Component {
   displayName = "Hello World Component";
   
-  // state = {}; // Alternative way to set initial states
+  // state = {}; // Alternative way to set initial state
   
   constructor(props) {
     // Mounting
@@ -412,6 +413,7 @@ export default App;
 
 ## React Profiler
 
-## Redux
-### Redux Middlewares
-#### Saga
+## State Management
+### Redux
+#### Redux Middlewares
+##### Saga

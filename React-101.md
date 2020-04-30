@@ -220,6 +220,27 @@ onTimeUpdate onVolumeChange onWaiting
 - renderIntoDocument()
 - *Simulate.{eventName}(element, [eventData])*
 
+### Test Renderer
+- TestRenderer.create(element, options)
+- TestRenderer.act(callback)
+- testRenderer.toJSON()
+- testRenderer.toTree()
+- testRenderer.update(element)
+- testRenderer.unmount()
+- testRenderer.getInstance()
+- testRenderer.root
+- testInstance.find()
+- testInstance.findByType(type)
+- testInstance.findByProps(props)
+- testInstance.findAll(test)
+- testInstance.findAllByType(type)
+- testInstance.findAllByProps(props)
+- testInstance.instance
+- testInstance.type
+- testInstance.props
+- testInstance.parent
+- testInstance.children
+
 ## Code in React
 
 ### Hello World! 

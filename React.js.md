@@ -394,7 +394,7 @@ ReactDOM.render(
 ```js
 import React from "react";
 
-const App = () => (<>....</>);
+const App = () => (<>Component code goes here.</>);
 
 export App;
 ```

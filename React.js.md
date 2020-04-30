@@ -1,12 +1,28 @@
 # React in a nutshell.
 
-> **Table of contents**
-> - [Thinking in React](#thinking-in-react)
->   * [Stateless Components](#stateless-components)
->   * [Stateful Components](#stateful-components)
->   * [State vs Props](#state-vs-props)
->   * [JSX](#jsx)
->   * [React Life-cycle](#react-life-cycle)
+**Table of contents**
+- [Thinking in React](#thinking-in-react)
+  * [Stateless Components](#stateless-components)
+  * [Stateful Components](#stateful-components)
+  * [State vs Props](#state-vs-props)
+  * [JSX](#jsx)
+  * [Higher-Order Components](#higher-order-components)
+- [API Reference](#api-reference)
+  * [React Top-Level API](#react-top-level-api)
+  * [ReactDOM](#reactdom)
+  * [ReactDOMServer](#reactdomserver)
+  * [DOM Elements](#dom-elements)
+  * [SyntheticEvent](#syntheticevent)
+  * [Test Utilities](#test-utilities)
+  * [Test Renderer](#test-renderer)
+  * [JavaScript Environment Requirements](#javascript-environment-requirements)
+- [Code in React](#code-in-react)
+  * [Hello World!](#hello-world-)
+- [Type Checking](#type-checking)
+- [Web Components](#web-components)
+- [Accessibility](#accessibility)
+- [Performance optimization](#performance-optimization)
+- [React Profiler](#react-profiler)
 
 ## Thinking in React
 

@@ -19,7 +19,7 @@
   * [Test Renderer](#test-renderer)
   * [JavaScript Environment Requirements](#javascript-environment-requirements)
 - [Coding in React](#coding-in-react)
-  * [Hello World!](#hello-world-)
+  * [Hello World!](#hello-world)
     + [Pure Function](#pure-function)
     + [Class Component](#class-component)
   * [Sample Application Structure](#sample-application-structure)
@@ -28,7 +28,7 @@
 - [Accessibility](#accessibility)
 - [Performance optimization](#performance-optimization)
 - [React Profiler](#react-profiler)
-- [State Management][#state-management]
+- [State Management](#state-management)
   * [Redux](#redux)
     + [Redux Middlewares](#redux-middlewares)
       - [Saga](#saga)

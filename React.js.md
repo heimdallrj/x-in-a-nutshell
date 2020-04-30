@@ -1,7 +1,7 @@
 # React in a nutshell.
 
 **Table of contents**
-- [[Thinking in React](#-thinking-in-react--https---reactjsorg-docs-thinking-in-reacthtml-)
+- [Thinking in React](#-thinking-in-react--https---reactjsorg-docs-thinking-in-reacthtml-)
   * [Concepts and Keywords](#concepts-and-keywords)
   * [Components](#components)
     + [Stateless Components](#stateless-components)

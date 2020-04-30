@@ -3,12 +3,12 @@
 **Table of contents**
 - [Thinking in React](#thinking-in-react)
   * [Concepts and Keywords](#concepts-and-keywords)
-    + Component
-      - Stateless Components
-      - Stateful Components
-      - Higher-Order Components
-    + State vs Props
-    + JSX
+    + [Component](#concepts-and-keywords)
+      - [Stateless Components](#concepts-and-keywords)
+      - [Stateful Components](#concepts-and-keywords)
+      - [Higher-Order Components](#concepts-and-keywords)
+    + [State vs Props](#concepts-and-keywords)
+    + [JSX](#concepts-and-keywords)
 - [API Reference](#api-reference)
   * [React Top-Level API](#react-top-level-api)
   * [ReactDOM](#reactdom)

@@ -66,17 +66,80 @@ ReactDOM.render(CompA, document.getElementById('root'));
 ### React Life-cycle
 
 **Mounting**
-- constructor()
-- getDerivedStateFromProps()
+- constructor(props)
+- static getDerivedStateFromProps(props, state)
 - render()
 - componentDidMount()
 
 **Updating**
-- getDerivedStateFromProps()
-- shouldComponentUpdate()
+- static getDerivedStateFromProps(props, state)
+- shouldComponentUpdate(nextProps, nextState)
 - render()
-- getSnapshotBeforeUpdate()
-- componentDidUpdate()
+- getSnapshotBeforeUpdate(prevProps, prevState)
+- componentDidUpdate(prevProps, prevState, snapshot)
 
 **Unmounting**
 - componentWillUnmount()
+
+**Error Handling**
+- static getDerivedStateFromError(error)
+- componentDidCatch(error, info)
+
+## Code in React
+
+### Hello World! 
+
+**Pure Function**
+```js
+const HelloWorld = ({ name }) => (
+  <div>
+    Hello, {name}
+  </div>
+);
+
+ReactDOM.render(
+  <HelloWorld name="Taylor" />,
+  document.getElementById('root')
+);
+```
+
+**Class Component**
+```js
+class HelloWorld extends React.Component {
+  constructor(props) {
+    // super(props);
+    // Mounting
+  }
+  
+  static getDerivedStateFromProps(props, state) {
+    // Mounting, Updating
+  }
+
+  componentDidMount() { // Mounting }
+  
+  shouldComponentUpdate(nextProps, nextState) { // Updating }
+  
+  getSnapshotBeforeUpdate(prevProps, prevState) { // Updating }
+  
+  componentDidUpdate(prevProps, prevState, snapshot) { // Updating }
+
+  componentWillUnmount() { // Unmounting }
+  
+  static getDerivedStateFromError(error) { // Error Handling }
+  
+  componentDidCatch(error, info) { // Error Handling }
+
+  render() {
+    return (
+      <div>
+        Hello, {this.props.name}
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <HelloWorld name="Taylor" />,
+  document.getElementById('root')
+);
+```

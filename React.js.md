@@ -1,12 +1,14 @@
 # React in a nutshell.
 
 **Table of contents**
-- [Thinking in React](#thinking-in-react)
-  * [Stateless Components](#stateless-components)
-  * [Stateful Components](#stateful-components)
-  * [State vs Props](#state-vs-props)
-  * [JSX](#jsx)
-  * [Higher-Order Components](#higher-order-components)
+- [[Thinking in React](https://reactjs.org/docs/thinking-in-react.html)](#-thinking-in-react--https---reactjsorg-docs-thinking-in-reacthtml-)
+  * [Concepts and Keywords](#concepts-and-keywords)
+  * [Components](#components)
+    + [Stateless Components](#stateless-components)
+    + [Stateful Components](#stateful-components)
+    + [State vs Props](#state-vs-props)
+    + [JSX](#jsx)
+    + [Higher-Order Components](#higher-order-components)
 - [API Reference](#api-reference)
   * [React Top-Level API](#react-top-level-api)
   * [ReactDOM](#reactdom)
@@ -30,17 +32,20 @@
   * [Redux Middlewares](#redux-middlewares)
     + [Saga](#saga)
 
-## Thinking in React
+## [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
+
+### Concepts and Keywords
+
+### Components
 
 **Basic building blocks** of React Application are **Components**.
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/1.jpg)
 
 A **Component** consists of;
-- HTML Markup 
+- HTML Markup
 - Props
 - State
-- Constructor
 - Life-cycle
 
 There are **Two Types** of React Components;
@@ -49,14 +54,14 @@ There are **Two Types** of React Components;
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/2.jpg)
 
-### Stateless Components
+#### Stateless Components
 **Pure Function** React Component.
 
 Returns **HTML** Markup.
 
 No **Advanced Component Logics** included.
 
-### Stateful Components
+#### Stateful Components
 JavaScript **Class**
 
 Includes;
@@ -64,11 +69,11 @@ Includes;
 - Constructor
 - Advanced Component Logics
 
-### State vs Props
+#### State vs Props
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/3.jpg)
 
-### JSX
+#### JSX
 Stands for **JavaScript XML**.
 
 Allows to write **HTML** in React.js
@@ -84,7 +89,7 @@ ReactDOM.render(CompA, document.getElementById('root'));
 const CompA = React.createElement('h1', {}, 'I do not use JSX!');
 ReactDOM.render(CompA, document.getElementById('root'));
 ```
-### Higher-Order Components
+#### Higher-Order Components
 
 ```js
 const higherOrderComponent = (Component) => {

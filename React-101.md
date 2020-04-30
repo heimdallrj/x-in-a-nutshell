@@ -1,5 +1,13 @@
 # React 101
 
+> **Table of contents**
+> - [Thinking in React](#thinking-in-react)
+>   * [Stateless Components](#stateless-components)
+>   * [Stateful Components](#stateful-components)
+>   * [State vs Props](#state-vs-props)
+>   * [JSX](#jsx)
+>   * [React Life-cycle](#react-life-cycle)
+
 ## Thinking in React
 
 **Basic building blocks** of React Application are **Components**.

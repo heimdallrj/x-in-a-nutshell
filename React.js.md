@@ -16,13 +16,17 @@
   * [Test Utilities](#test-utilities)
   * [Test Renderer](#test-renderer)
   * [JavaScript Environment Requirements](#javascript-environment-requirements)
-- [Code in React](#code-in-react)
+- [Coding in React](#coding-in-react)
   * [Hello World!](#hello-world-)
+  * [Sample App](#sample-app)
 - [Type Checking](#type-checking)
 - [Web Components](#web-components)
 - [Accessibility](#accessibility)
 - [Performance optimization](#performance-optimization)
 - [React Profiler](#react-profiler)
+- [Redux](#redux)
+  * [Redux Middlewares](#redux-middlewares)
+    + [Saga](#saga)
 
 ## Thinking in React
 
@@ -365,7 +369,7 @@ ReactDOM.render(
 );
 ```
 
-***App.js**
+**App.js**
 ```js
 import React from "react";
 

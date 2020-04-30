@@ -12,7 +12,7 @@
 
 **Basic building blocks** of React Application are **Components**.
 
-![](https://github.com/thinkholic/x-101/raw/master/assets/1.png)
+![](https://github.com/thinkholic/x-101/raw/master/assets/1.jpg)
 
 A **Component** consists of;
 - HTML Markup 
@@ -25,7 +25,7 @@ There are **Two Types** of React Components;
 - Stateless
 - Stateful (Class Component)
 
-![](https://github.com/thinkholic/x-101/raw/master/assets/2.png)
+![](https://github.com/thinkholic/x-101/raw/master/assets/2.jpg)
 
 ### Stateless Components
 **Pure Function** React Component.
@@ -44,7 +44,7 @@ Includes;
 
 ### State vs Props
 
-![](https://github.com/thinkholic/x-101/raw/master/assets/3.png)
+![](https://github.com/thinkholic/x-101/raw/master/assets/3.jpg)
 
 ### JSX
 Stands for **JavaScript XML**.

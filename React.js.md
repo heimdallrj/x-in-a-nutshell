@@ -282,7 +282,7 @@ onTimeUpdate onVolumeChange onWaiting
   - `core-js/es/set`
   - `raf/polyfill`
 
-## Code in React
+## Coding in React
 
 ### Hello World! 
 
@@ -335,18 +335,43 @@ class HelloWorld extends React.Component {
     );
   }
 }
-```
 
-**The common part for both component types**
-```js
 HelloWorld.defaultProps = {
   name: 'Stranger'
 };
+```
+
+### Sample App
+
+**index.html**
+```html
+<html>
+ ...
+ <body>
+  <div id="root"></div>
+ </body>
+<html>
+```
+
+**index.js**
+```js
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "App.js"
 
 ReactDOM.render(
-  <HelloWorld name="Taylor" />,
+  <App />,
   document.getElementById('root')
 );
+```
+
+***App.js**
+```js
+import React from "react";
+
+const App = () => (<>....</>);
+
+export App;
 ```
 
 ## Type Checking
@@ -361,3 +386,7 @@ ReactDOM.render(
 ## Performance optimization
 
 ## React Profiler
+
+## Redux
+### Redux Middlewares
+#### Saga

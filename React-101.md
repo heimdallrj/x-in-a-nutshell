@@ -109,6 +109,7 @@ ReactDOM.render(CompA, document.getElementById('root'));
     - React.Children.only(children)
     - React.Children.toArray(children)
 - React.Fragment
+- React.StrictMode
 - *Refs*
   - React.createRef
   - React.forwardRef
@@ -128,6 +129,78 @@ ReactDOM.render(CompA, document.getElementById('root'));
     - useImperativeHandle(ref, createHandle, [deps])
     - useLayoutEffect
     - useDebugValue(value)
+    
+### ReactDOM
+- ReactDOM.render(element, container[, callback])
+- ReactDOM.hydrate(element, container[, callback])
+- ReactDOM.unmountComponentAtNode(container)
+- ReactDOM.findDOMNode(component)
+- ReactDOM.createPortal(child, container)
+
+### ReactDOMServer
+- ReactDOMServer.renderToString(element)
+- ReactDOMServer.renderToStaticMarkup(element)
+- ReactDOMServer.renderToNodeStream(element)
+- ReactDOMServer.renderToStaticNodeStream(element)
+
+### DOM Elements
+- *Differences In Attributes*
+  - checked
+  - className
+  - dangerouslySetInnerHTML
+  - htmlFor
+  - onChange
+  - selected
+  - style
+  - suppressContentEditableWarning
+  - suppressHydrationWarning
+  - value
+
+### SyntheticEvent
+- *Clipboard Events*
+  - onCopy
+  - onCut
+  - onPaste
+- *Composition Events*
+  - onCompositionEnd
+  - onCompositionStart
+  - onCompositionUpdate
+- *Keyboard Events*
+  - onKeyDown onKeyPress onKeyUp
+- *Focus Events*
+  - onFocus onBlur
+- *Form Events*
+  - onChange onInput onInvalid onReset onSubmit
+- *Generic Events*
+  - onError onLoad
+- *Mouse Events*
+  - onClick onContextMenu onDoubleClick onDrag onDragEnd onDragEnter onDragExit
+onDragLeave onDragOver onDragStart onDrop onMouseDown onMouseEnter onMouseLeave
+onMouseMove onMouseOut onMouseOver onMouseUp
+- *Pointer Events*
+  - onPointerDown onPointerMove onPointerUp onPointerCancel onGotPointerCapture
+onLostPointerCapture onPointerEnter onPointerLeave onPointerOver onPointerOut
+- *Selection Events*
+  - onSelect
+- *Touch Events*
+  - onTouchCancel onTouchEnd onTouchMove onTouchStart
+- *UI Events*
+  - onScroll
+- *Wheel Events*
+  - onWheel
+- *Media Events*
+  - onAbort onCanPlay onCanPlayThrough onDurationChange onEmptied onEncrypted
+onEnded onError onLoadedData onLoadedMetadata onLoadStart onPause onPlay
+onPlaying onProgress onRateChange onSeeked onSeeking onStalled onSuspend
+onTimeUpdate onVolumeChange onWaiting
+- *Image Events*
+  - onLoad onError
+- *Animation Events*
+  - onAnimationStart onAnimationEnd onAnimationIteration
+- *Transition Events*
+  - onTransitionEnd
+- *Other*
+  - onToggle
 
 ## Code in React
 

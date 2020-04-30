@@ -241,6 +241,12 @@ onTimeUpdate onVolumeChange onWaiting
 - testInstance.parent
 - testInstance.children
 
+### JavaScript Environment Requirements
+- imports;
+  - `core-js/es/map`
+  - `core-js/es/set`
+  - `raf/polyfill`
+
 ## Code in React
 
 ### Hello World! 

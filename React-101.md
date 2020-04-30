@@ -43,7 +43,7 @@ Stands for **JavaScript XML**.
 
 Allows to write **HTML** in React.js
 
-```jsx
+```js
 // JSX
 const CompA = <h1>I Love JSX!</h1>;
 ReactDOM.render(CompA, document.getElementById('root'));

@@ -63,7 +63,7 @@ const CompA = React.createElement('h1', {}, 'I do not use JSX!');
 ReactDOM.render(CompA, document.getElementById('root'));
 ```
 
-### React Life-cycle
+### React Component Lifecycle 
 
 **Mounting**
 - constructor(props)
@@ -85,6 +85,18 @@ ReactDOM.render(CompA, document.getElementById('root'));
 - static getDerivedStateFromError(error)
 - componentDidCatch(error, info)
 
+### Other APIs
+- setState(updater, [callback])
+- component.forceUpdate(callback)
+
+### Class Properties
+- defaultProps
+- displayName
+
+### Instance Properties
+- props
+- states
+
 ## Code in React
 
 ### Hello World! 
@@ -93,22 +105,23 @@ ReactDOM.render(CompA, document.getElementById('root'));
 ```js
 const HelloWorld = ({ name }) => (
   <div>
-    Hello, {name}
+    Hello, {name}!
   </div>
-);
-
-ReactDOM.render(
-  <HelloWorld name="Taylor" />,
-  document.getElementById('root')
 );
 ```
 
 **Class Component**
 ```js
 class HelloWorld extends React.Component {
+  displayName = "Hello World Component";
+  
+  // state = {}; // Alternative way to set initial states
+  
   constructor(props) {
-    // super(props);
     // Mounting
+    
+    super(props);
+    this.state = {}
   }
   
   static getDerivedStateFromProps(props, state) {
@@ -132,11 +145,18 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <div>
-        Hello, {this.props.name}
+        Hello, {this.props.name}!
       </div>
     );
   }
 }
+```
+
+**The common part for both component types**
+```js
+HelloWorld.defaultProps = {
+  name: 'Stranger'
+};
 
 ReactDOM.render(
   <HelloWorld name="Taylor" />,

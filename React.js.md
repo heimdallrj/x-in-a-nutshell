@@ -18,7 +18,9 @@
   * [JavaScript Environment Requirements](#javascript-environment-requirements)
 - [Coding in React](#coding-in-react)
   * [Hello World!](#hello-world-)
-  * [Sample App](#sample-app)
+    + [Pure Function](#pure-function)
+    + [Class Component](#class-component)
+  * [Sample Application Structure](#sample-application-structure)
 - [Type Checking](#type-checking)
 - [Web Components](#web-components)
 - [Accessibility](#accessibility)
@@ -290,7 +292,12 @@ onTimeUpdate onVolumeChange onWaiting
 
 ### Hello World! 
 
-**Pure Function**
+**Usage**
+```js
+<HelloWorld name="John Doe" />
+```
+
+#### Pure Function
 ```js
 const HelloWorld = ({ name }) => (
   <div>
@@ -299,7 +306,7 @@ const HelloWorld = ({ name }) => (
 );
 ```
 
-**Class Component**
+#### Class Component
 ```js
 class HelloWorld extends React.Component {
   displayName = "Hello World Component";
@@ -345,7 +352,7 @@ HelloWorld.defaultProps = {
 };
 ```
 
-### Sample App
+### Sample Application Structure
 
 **index.html**
 ```html

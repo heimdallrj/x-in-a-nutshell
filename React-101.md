@@ -63,39 +63,71 @@ const CompA = React.createElement('h1', {}, 'I do not use JSX!');
 ReactDOM.render(CompA, document.getElementById('root'));
 ```
 
-### React Component Lifecycle 
+## API Reference
 
-**Mounting**
-- constructor(props)
-- static getDerivedStateFromProps(props, state)
-- render()
-- componentDidMount()
-
-**Updating**
-- static getDerivedStateFromProps(props, state)
-- shouldComponentUpdate(nextProps, nextState)
-- render()
-- getSnapshotBeforeUpdate(prevProps, prevState)
-- componentDidUpdate(prevProps, prevState, snapshot)
-
-**Unmounting**
-- componentWillUnmount()
-
-**Error Handling**
-- static getDerivedStateFromError(error)
-- componentDidCatch(error, info)
-
-### Other APIs
-- setState(updater, [callback])
-- component.forceUpdate(callback)
-
-### Class Properties
-- defaultProps
-- displayName
-
-### Instance Properties
-- props
-- states
+### React Top-Level API
+- *Components*
+  - React.Component
+    - Lifecycle 
+      - *Mounting*
+        - constructor(props)
+        - static getDerivedStateFromProps(props, state)
+        - render()
+        - componentDidMount()
+      - *Updating*
+        - static getDerivedStateFromProps(props, state)
+        - shouldComponentUpdate(nextProps, nextState)
+        - render()
+        - getSnapshotBeforeUpdate(prevProps, prevState)
+        - componentDidUpdate(prevProps, prevState, snapshot)
+      - *Unmounting*
+        - componentWillUnmount()
+    - Other
+      - setState(updater, [callback])
+      - component.forceUpdate(callback)
+    - Class Properties
+      - defaultProps
+      - displayName
+    - Instance Properties
+      - props
+      - states
+    - Error Handling**
+      - static getDerivedStateFromError(error)
+      - componentDidCatch(error, info)      
+  - React.PureComponent
+  - React.memo
+- *Creating React Elements*
+  - React.createElement(type, [props], [...children])
+  - React.createFactory(type)
+- *Transforming Elements*
+  - React.cloneElement(element, [props], [...children])
+  - React.isValidElement(object)
+  - React.Children
+    - React.Children.map(children, function[(thisArg)])
+    - React.Children.forEach(children, function[(thisArg)])
+    - React.Children.count(children)
+    - React.Children.only(children)
+    - React.Children.toArray(children)
+- React.Fragment
+- *Refs*
+  - React.createRef
+  - React.forwardRef
+- *Suspense*
+  - React.lazy
+  - React.Suspense
+- Hooks
+  - Basic Hooks
+    - useState(initialState)
+    - useEffect(didUpdate)
+    - useContext(MyContext)
+  - Additional Hooks
+    - useReducer(reducer, initialArg, init)
+    - useCallback(() => {},[args])
+    - useMemo(() => (), [a, b])
+    - useRef(initialValue)
+    - useImperativeHandle(ref, createHandle, [deps])
+    - useLayoutEffect
+    - useDebugValue(value)
 
 ## Code in React
 

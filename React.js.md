@@ -396,7 +396,7 @@ import React from "react";
 
 const App = () => (<>Component code goes here.</>);
 
-export App;
+export default App;
 ```
 
 ## Type Checking

@@ -1,4 +1,4 @@
-# React 101
+# React in a nutshell.
 
 > **Table of contents**
 > - [Thinking in React](#thinking-in-react)

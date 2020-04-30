@@ -202,6 +202,24 @@ onTimeUpdate onVolumeChange onWaiting
 - *Other*
   - onToggle
 
+### Test Utilities
+- act()
+- mockComponent()
+- isElement()
+- isElementOfType()
+- isDOMComponent()
+- isCompositeComponent()
+- isCompositeComponentWithType()
+- findAllInRenderedTree()
+- scryRenderedDOMComponentsWithClass()
+- findRenderedDOMComponentWithClass()
+- scryRenderedDOMComponentsWithTag()
+- findRenderedDOMComponentWithTag()
+- scryRenderedComponentsWithType()
+- findRenderedComponentWithType()
+- renderIntoDocument()
+- *Simulate.{eventName}(element, [eventData])*
+
 ## Code in React
 
 ### Hello World! 

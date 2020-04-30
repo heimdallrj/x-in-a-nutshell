@@ -56,20 +56,24 @@ There are **Two Types** of React Components;
 
 ***Stateless Components***
 
-**Pure Function** React Component.
+```
+*Pure Function* React Component.
 
-Returns **HTML** Markup.
+Returns *HTML* Markup.
 
-No **Advanced Component Logics** included.
+No *Advanced Component Logics* included.
+```
 
 ***Stateful Components***
 
-JavaScript **Class**
+```
+JavaScript *Class*
 
 Includes;
 - Local State
 - Life-cycle methods
 - Advanced Component Logics
+```
 
 ***Higher-Order Components***
 
@@ -88,9 +92,11 @@ const EnhancedComponent = higherOrderComponent(WrappedComponent);
 
 **JSX**
 
-Stands for **JavaScript XML**.
+```
+Stands for *JavaScript XML*.
 
-Allows to write **HTML** in React.js
+Allows to write *HTML* in React.js
+```
 
 ```js
 // JSX

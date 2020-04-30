@@ -62,6 +62,16 @@ ReactDOM.render(CompA, document.getElementById('root'));
 const CompA = React.createElement('h1', {}, 'I do not use JSX!');
 ReactDOM.render(CompA, document.getElementById('root'));
 ```
+### Higher-Order Components
+
+```js
+const higherOrderComponent = (Component) => {
+  const newProps = {};
+  return (<Component {...newProps} />)
+}
+
+const EnhancedComponent = higherOrderComponent(WrappedComponent);
+```
 
 ## API Reference
 
@@ -82,6 +92,9 @@ ReactDOM.render(CompA, document.getElementById('root'));
         - componentDidUpdate(prevProps, prevState, snapshot)
       - *Unmounting*
         - componentWillUnmount()
+      - *Error Handling*
+        - static getDerivedStateFromError(error)
+        - componentDidCatch(error, info)
     - Other
       - setState(updater, [callback])
       - component.forceUpdate(callback)
@@ -129,6 +142,12 @@ ReactDOM.render(CompA, document.getElementById('root'));
     - useImperativeHandle(ref, createHandle, [deps])
     - useLayoutEffect
     - useDebugValue(value)
+- Context
+  - React.createContext(defaultValue)
+  - Context.Provider
+  - Class.contextType
+  - Context.Consumer
+  - Context.displayName
     
 ### ReactDOM
 - ReactDOM.render(element, container[, callback])
@@ -314,6 +333,5 @@ ReactDOM.render(
 );
 ```
 
-## Accessibility
 
-## 
+

@@ -37,7 +37,7 @@
 
 ### Concepts and Keywords
 
-**Component**
+**Components**
 
 ```text
 Basic *building blocks* of React Application are *Components*

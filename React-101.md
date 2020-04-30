@@ -1,6 +1,6 @@
 # React 101
 
-> **Table of contents**
+**Table of contents**
 > - [Thinking in React](#thinking-in-react)
 >   * [Stateless Components](#stateless-components)
 >   * [Stateful Components](#stateful-components)

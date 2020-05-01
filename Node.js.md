@@ -17,15 +17,14 @@
 * Single Threaded but Highly Scalable
 * No Buffering
 
-#### Applications
-**Where to Use;**
+#### Where to Use
 * I/O bound Applications
 * Data Streaming Applications
 * Data Intensive Real-time Applications (DIRT)
 * JSON APIs based Applications
 * Single Page Applications
 
-**Where Not to Use;**
+#### Where Not to Use
 * CPU intensive applications
 
 ## Credits

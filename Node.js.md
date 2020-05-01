@@ -84,6 +84,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 var fs = require("fs");
 
 console.log("Begin");
+
 fs.readFile('input.txt', function (err, data) {
    if (err) return console.error(err);
    console.log("Task Completed");
@@ -125,6 +126,8 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
 ![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
 
+## Core Modules
+
 ### Event Emitter
 
 ### Buffers
@@ -148,7 +151,6 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 ## Scaling Application
 
 ## Publish Your First NPM Package
-
 
 ## Credits
 

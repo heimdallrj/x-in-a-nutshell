@@ -8,9 +8,6 @@
 
 > Node.js = Runtime Environment + JavaScript Library
 
-### Node.js Internals
-![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/nodejs_concepts.jpg)
-
 #### Features
 * Faster code execution
 * Asynchronous and Event Driven
@@ -26,6 +23,9 @@
 
 #### Where Not to Use
 * CPU intensive applications
+
+## Node.js Internals
+![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/nodejs_concepts.jpg)
 
 ## Credits
 * [TutorialsPoint](https://www.tutorialspoint.com/nodejs/)

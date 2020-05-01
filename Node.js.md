@@ -1,6 +1,6 @@
 # Node.js in a nutshell.
 
-## Intro.
+## Introduction
 * [Node.js](https://nodejs.org/en/) is a server-side JavaScript runtime 
 * Built on [Chrome's V8 JavaScript engine](https://code.google.com/p/v8/).
 * Developed by [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl) in 2009

@@ -69,6 +69,23 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ## Basic Concepts
 
+### Event Loop
+
+* Node.js is basically asynchronous and single-threaded.
+* Support concurrency via the concept of event and callbacks.
+* Uses observer pattern
+* Node.js thread keeps an event loop
+* Whenever a task gets completed, it fires the corresponding event which signals the event-listener function to execute
+* That makes Node.js Event-Driven
+
+![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
+
+### Event Stack
+
+### Event Table
+
+### Event Queue
+
 ### Callbacks
 
 * Callback is an asynchronous equivalent for a function.
@@ -111,22 +128,13 @@ users.get(5, function(err, data){
 ```
 Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
-### Event Loop
+##### Avoiding Callback hell
 
-* Node.js is basically asynchronous and single-threaded.
-* Support concurrency via the concept of event and callbacks.
-* Uses observer pattern
-* Node.js thread keeps an event loop
-* Whenever a task gets completed, it fires the corresponding event which signals the event-listener function to execute
-* That makes Node.js Event-Driven
+> Sometimes it might not be possible to avoid callback hell in every case. So one thing you can do in such cases is; adding meaningful and organize comments in the code.
 
-![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
-
-### Event Stack
-
-### Event Table
-
-### Event Queue
+1. Split the callbacks into different functions
+2. Use promises
+3. Use asynchronous functions (Async/Await)
 
 ## Core Modules
 

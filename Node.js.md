@@ -71,9 +71,65 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/nodejs_sample.jpg)
 
-## Concepts
+## Basic Concepts
 
 ### Callbacks
+
+* Callback is an asynchronous equivalent for a function.
+* A callback function is called at the completion of a given task.
+* This makes Node.js highly scalable by allowing run processes in non-blocking way.
+
+**Example Code**
+```js
+var fs = require("fs");
+
+console.log("Begin");
+fs.readFile('input.txt', function (err, data) {
+   if (err) return console.error(err);
+   console.log("Task Completed");
+});
+
+console.log("EOF.");
+```
+
+Output:
+```text
+Begin
+EOF.
+Task Completed
+```
+
+#### Callback Hell
+
+Callback hell is where there are many numbers of nested callbacks.
+
+```js
+fs.readdir(source, function (err, files) {
+  if (err) {
+    console.log('Error finding files: ' + err)
+  } else {
+    files.forEach(function (filename, fileIndex) {
+      console.log(filename)
+      gm(source + filename).size(function (err, values) {
+        if (err) {
+          console.log('Error identifying file size: ' + err)
+        } else {
+          console.log(filename + ' : ' + values)
+          aspect = (values.width / values.height)
+          widths.forEach(function (width, widthIndex) {
+            height = Math.round(width / aspect)
+            console.log('resizing ' + filename + 'to ' + height + 'x' + height)
+            this.resize(width, height).write(dest + 'w' + width + '_' + filename, function(err) {
+              if (err) console.log('Error writing file: ' + err)
+            })
+          }.bind(this))
+        }
+      })
+    })
+  }
+})
+```
+Source: [callbackhell.com](http://callbackhell.com/)
 
 ### Event Loop
 
@@ -100,6 +156,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 ## Scaling Application
 
 ## Publish Your First NPM Package
+
 
 ## Credits
 

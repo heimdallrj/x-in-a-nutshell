@@ -133,6 +133,15 @@ Source: [callbackhell.com](http://callbackhell.com/)
 
 ### Event Loop
 
+* Node.js is basically asynchronous and single-threaded.
+* Support concurrency via the concept of event and callbacks.
+* Uses observer pattern
+* Node.js thread keeps an event loop
+* Whenever a task gets completed, it fires the corresponding event which signals the event-listener function to execute
+* That makes Node.js Event-Driven
+
+![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
+
 ### Event Emitter
 
 ### Buffers

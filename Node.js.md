@@ -1,12 +1,32 @@
 # Node.js in a nutshell.
 
-## Introduction
+## Intro.
+* [Node.js](https://nodejs.org/en/) is a server-side JavaScript runtime 
+* Built on [Chrome's V8 JavaScript engine](https://code.google.com/p/v8/).
+* Developed by [Ryan Dahl](https://en.wikipedia.org/wiki/Ryan_Dahl) in 2009
+* MIT Licenced 
 
-Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009
+> Node.js = Runtime Environment + JavaScript Library
 
-> Node.js is a platform built on [Chrome's JavaScript runtime](https://code.google.com/p/v8/) for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+### Node.js Internals
+![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/nodejs_concepts.jpg)
 
-### Prerequisites
+#### Features
+* Faster code execution
+* Asynchronous and Event Driven
+* Single Threaded but Highly Scalable
+* No Buffering
 
-* JavaScript
-* HTML/CSS
+#### Applications
+**Where to Use;**
+* I/O bound Applications
+* Data Streaming Applications
+* Data Intensive Real-time Applications (DIRT)
+* JSON APIs based Applications
+* Single Page Applications
+
+**Where Not to Use;**
+* CPU intensive applications
+
+## Credits
+* [TutorialsPoint](https://www.tutorialspoint.com/nodejs/)

@@ -28,10 +28,6 @@
 
 ## Node.js Echosystem
 
-### REPL
-
-READ - EVAL - PRINT - LOOP.
-
 ### NPM
 
 NPM Stands fot **Node Package Manager**.
@@ -68,6 +64,10 @@ console.log('Server running at http://127.0.0.1:8080/');
 ![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/nodejs_sample.jpg)
 
 ## Basic Concepts
+
+### REPL
+
+READ - EVAL - PRINT - LOOP.
 
 ### Event Loop
 

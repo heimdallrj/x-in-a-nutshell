@@ -71,20 +71,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ### Event Loop
 
-* Node.js is basically asynchronous and single-threaded.
-* Support concurrency via the concept of event and callbacks.
-* Uses observer pattern
-* Node.js thread keeps an event loop
-* Whenever a task gets completed, it fires the corresponding event which signals the event-listener function to execute
-* That makes Node.js Event-Driven
-
-![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
-
-### Event Stack
-
-### Event Table
-
-### Event Queue
+> The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
 
 ### Callbacks
 

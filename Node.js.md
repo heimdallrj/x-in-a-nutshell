@@ -11,7 +11,7 @@
 
 * Faster code execution
 * Asynchronous and Event Driven
-* Single Threaded but Highly Scalable
+* Single Threaded but highly scalable
 * No Buffering
 
 #### Where to Use
@@ -71,7 +71,7 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ### Event Loop
 
-> The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
+The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
 
 ### Callbacks
 

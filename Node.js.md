@@ -28,10 +28,6 @@
 
 ## Node.js Echosystem
 
-### Internals
-
-![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/nodejs_concepts.jpg)
-
 ### REPL
 
 READ - EVAL - PRINT - LOOP.
@@ -125,6 +121,12 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 * That makes Node.js Event-Driven
 
 ![Image credit: tutorialspoint.com](https://www.tutorialspoint.com/nodejs/images/event_loop.jpg)
+
+### Event Stack
+
+### Event Table
+
+### Event Queue
 
 ## Core Modules
 

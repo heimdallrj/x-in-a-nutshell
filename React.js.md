@@ -11,46 +11,38 @@
 
 ### Components
 
-```text
-Basic *building blocks* of React Application are *Components*
-```
+Basic **building blocks** of React Application are **Components**.
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/1.jpg)
 
-```text
-A *Component* consists of;
+A **Component** consists of;
 - HTML Markup
 - Props
 - State
 - Life-cycle
 
-There are *Two Types* of React Components;
+There are **Two Types** of React Components;
 - Stateless
 - Stateful (Class Component)
-```
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/2.jpg)
 
 #### Stateless Components
 
-```text
-*Pure Function* React Component.
+**Pure Function** React Component.
 
-Returns *HTML* Markup.
+Returns **HTML** Markup.
 
-No *Advanced Component Logics* included.
-```
+No **Advanced Component Logics** included.
 
 #### Stateful Components
 
-```text
-JavaScript *Class*
+JavaScript **Class**
 
 Includes;
 - Local State
 - Life-cycle methods
 - Advanced Component Logics
-```
 
 #### Higher-Order Components
 

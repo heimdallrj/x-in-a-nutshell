@@ -65,6 +65,29 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ## Basic Concepts
 
+* Lexical Structure
+* Expressions
+* Types
+* Variables
+* Functions
+* this
+* Arrow Functions
+* Loops
+* Scopes
+* Arrays
+* Template Literals
+* Semicolons
+* Strict Mode
+* ECMAScript 6, 2016, 2017
+
+* REPL
+* Asynchronous programming and callbacks
+* Timers
+* Promises
+* Async and Await
+* Closures
+* The Event Loop
+
 ### REPL
 
 READ - EVAL - PRINT - LOOP.

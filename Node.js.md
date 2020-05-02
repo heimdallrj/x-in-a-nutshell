@@ -155,12 +155,12 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
 ## Appendix-
 
-* Publishing a NPM Package to the Registry
-* Developing a CLI Tool with NodeJs
+* [Publish your own NPM package](https://hackernoon.com/publish-your-own-npm-package-946b19df577e)
+* [Build a JavaScript Command Line Interface (CLI) with Node.js](https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/)
 
 ## Credits
 
 * [TutorialsPoint](https://www.tutorialspoint.com/nodejs/)
-* [NodeJs Dev](https://nodejs.dev/)
-* [NodeJs API Reference](https://nodejs.org/api/)
-* [katacoda - NodeJs Playground](https://www.katacoda.com/courses/nodejs/playground)
+* [Node.js Dev](https://nodejs.dev/)
+* [Node.js API Reference](https://nodejs.org/api/)
+* [katacoda - Node.js Playground](https://www.katacoda.com/courses/nodejs/playground)

@@ -1,4 +1,4 @@
-# React in a nutshell.
+# React.js in a nutshell.
 
 ## Introduction
 

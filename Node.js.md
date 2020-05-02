@@ -65,36 +65,28 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 ## Basic Concepts
 
-* Lexical Structure
-* Expressions
+* [Lexical Structure](https://javabeginnerstutorial.com/javascript-2/javascripts-lexical-structure/)
+* [Expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 * Types
 * Variables
 * Functions
 * this
 * Arrow Functions
 * Loops
-* Scopes
+* [Scopes](https://scotch.io/tutorials/understanding-scope-in-javascript)
 * Arrays
-* Template Literals
+* [Template Literals](https://flaviocopes.com/javascript-template-literals/)
 * Semicolons
-* Strict Mode
-* ECMAScript 6, 2016, 2017
+* [Strict Mode](https://love2dev.com/blog/javascript-strict-mode/)
+* [ECMAScript 6, 2016, 2017](https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c)
 
-* REPL
+* REPL: READ - EVAL - PRINT - LOOP.
 * Asynchronous programming and callbacks
 * Timers
 * Promises
 * Async and Await
 * Closures
 * The Event Loop
-
-### REPL
-
-READ - EVAL - PRINT - LOOP.
-
-### Event Loop
-
-The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
 
 ### Callbacks
 
@@ -137,6 +129,10 @@ users.get(5, function(err, data){
 })
 ```
 Source: [quora.com](https://www.quora.com/What-is-callback-hell)
+
+### Event Loop
+
+The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
 
 ##### Avoiding Callback hell
 

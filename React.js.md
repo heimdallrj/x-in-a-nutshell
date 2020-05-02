@@ -2,9 +2,9 @@
 
 ## Introduction
 
-* React is a front-end **library** (not a framework) developed by Facebook
+* [React.js](https://reactjs.org/) is a front-end **library** (not a framework) developed by Facebook.
 * Based on Component Architecture
-* Uses a concept called **Virtual DOM**
+* Uses a concept called **[Virtual DOM](https://bitsofco.de/understanding-the-virtual-dom/)** to render the UI
 * MIT Licensed
 
 ## React.js Echosystem

@@ -28,7 +28,7 @@
 
 ## Node.js Echosystem
 
-### NPM
+### [NPM](https://nodejs.dev/an-introduction-to-the-npm-package-manager)
 
 NPM Stands fot **Node Package Manager**.
 
@@ -146,14 +146,12 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
 * [console](https://nodejs.dev/output-to-the-command-line-using-nodejs)
 * [Event Emitter](https://nodejs.dev/the-nodejs-events-module)
-* [https](https://nodejs.dev/the-nodejs-http-module)
+* [http](https://nodejs.dev/the-nodejs-http-module)
 * [Buffers](https://nodejs.dev/nodejs-buffers)
 * [Streams](https://nodejs.dev/nodejs-streams)
 * [fs - File System](https://nodejs.dev/the-nodejs-path-module)
 * [os](https://nodejs.dev/the-nodejs-os-module)
 * [path](https://nodejs.dev/the-nodejs-path-module)
-
-## [NPM](https://nodejs.dev/an-introduction-to-the-npm-package-manager)
 
 ## Credits
 

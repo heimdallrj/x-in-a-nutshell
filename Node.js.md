@@ -153,6 +153,11 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 * [os](https://nodejs.dev/the-nodejs-os-module)
 * [path](https://nodejs.dev/the-nodejs-path-module)
 
+## Appendix-
+
+* Publishing a NPM Package to the Registry
+* Developing a CLI Tool with NodeJs
+
 ## Credits
 
 * [TutorialsPoint](https://www.tutorialspoint.com/nodejs/)

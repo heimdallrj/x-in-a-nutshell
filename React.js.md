@@ -61,11 +61,9 @@ const EnhancedComponent = higherOrderComponent(WrappedComponent);
 
 ### JSX
 
-```text
-Stands for *JavaScript XML*.
+Stands for **JavaScript XML**.
 
-Allows to write *HTML* in React.js
-```
+Allows to write **HTML** in React.js
 
 ```js
 // JSX

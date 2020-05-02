@@ -28,9 +28,9 @@
 
 ## Node.js Echosystem
 
-### [NPM](https://nodejs.dev/an-introduction-to-the-npm-package-manager)
+### NPM
 
-NPM Stands fot **Node Package Manager**.
+[NPM](https://nodejs.dev/an-introduction-to-the-npm-package-manager) Stands fot **Node Package Manager**.
 
 * [NPM Registry](https://www.npmjs.com/) - Online Repository for NPM Packages/modules
 * NPM Command-line Utility

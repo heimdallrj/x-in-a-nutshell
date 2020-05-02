@@ -82,12 +82,12 @@ console.log('Server running at http://127.0.0.1:8080/');
 
 
 * REPL: READ - EVAL - PRINT - LOOP.
-* Asynchronous programming and callbacks
+* [Asynchronous programming and callbacks](https://nodejs.dev/javascript-asynchronous-programming-and-callbacks)
 * Timers
-* Promises
-* Async and Await
+* [Promises](https://nodejs.dev/understanding-javascript-promises)
+* [Async and Await](https://nodejs.dev/modern-asynchronous-javascript-with-async-and-await)
 * Closures
-* The Event Loop
+* [The Event Loop](https://nodejs.dev/the-nodejs-event-loop)
 
 ### Callbacks
 
@@ -133,7 +133,7 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
 ### Event Loop
 
-The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
+[The event loop](https://nodejs.dev/the-nodejs-event-loop) is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
 
 ##### Avoiding Callback hell
 
@@ -145,30 +145,18 @@ The event loop is what allows Node.js to perform non-blocking I/O operations —
 
 ## Core Modules
 
-### Event Emitter
+* [console](https://nodejs.dev/output-to-the-command-line-using-nodejs)
+* [Event Emitter](https://nodejs.dev/the-nodejs-events-module)
+* [https](https://nodejs.dev/the-nodejs-http-module)
+* [Buffers](https://nodejs.dev/nodejs-buffers)
+* [Streams](https://nodejs.dev/nodejs-streams)
+* [fs - File System](https://nodejs.dev/the-nodejs-path-module)
+* [os](https://nodejs.dev/the-nodejs-os-module)
+* [path](https://nodejs.dev/the-nodejs-path-module)
 
-### Buffers
-
-### Streams
-
-### File System
-
-### Global Objects
-
-### Utility Modules
-
-### Web Module
-
-## Frameworks
-
-### Express
-
-## RESTful API
-
-## Scaling Application
-
-## Publish Your First NPM Package
+## [NPM](https://nodejs.dev/an-introduction-to-the-npm-package-manager)
 
 ## Credits
 
 * [TutorialsPoint](https://www.tutorialspoint.com/nodejs/)
+* [NodeJs Dev](https://nodejs.dev/)

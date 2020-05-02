@@ -1,37 +1,15 @@
 # React in a nutshell.
 
-**TOC**
-- [Thinking in React](#thinking-in-react)
-  * [Concepts and Keywords](#concepts-and-keywords)
-    + [Component](#concepts-and-keywords)
-      - [Stateless Components](#concepts-and-keywords)
-      - [Stateful Components](#concepts-and-keywords)
-      - [Higher-Order Components](#concepts-and-keywords)
-    + [State vs Props](#concepts-and-keywords)
-    + [JSX](#concepts-and-keywords)
-- [API Reference](#api-reference)
-  * [React Top-Level API](#react-top-level-api)
-  * [ReactDOM](#reactdom)
-  * [ReactDOMServer](#reactdomserver)
-  * [DOM Elements](#dom-elements)
-  * [SyntheticEvent](#syntheticevent)
-  * [Test Utilities](#test-utilities)
-  * [Test Renderer](#test-renderer)
-  * [JavaScript Environment Requirements](#javascript-environment-requirements)
-- [Coding in React](#coding-in-react)
-  * [Hello World!](#hello-world)
-    + [Pure Function](#pure-function)
-    + [Class Component](#class-component)
-  * [Sample Application Structure](#sample-application-structure)
-- [Type Checking](#type-checking)
-- [Web Components](#web-components)
-- [Accessibility](#accessibility)
-- [Performance optimization](#performance-optimization)
-- [React Profiler](#react-profiler)
-- [State Management](#state-management)
-  * [Redux](#redux)
-    + [Redux Middlewares](#redux-middlewares)
-      - [Saga](#saga)
+## Introduction
+
+* React is a front-end **library** (not a framework) developed by Facebook
+* Based on Component Architecture
+* Uses a concept called **Virtual DOM**
+* MIT Licensed
+
+## React.js Echosystem
+
+[TODO]
 
 ## [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 

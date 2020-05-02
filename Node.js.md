@@ -130,10 +130,6 @@ users.get(5, function(err, data){
 ```
 Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
-### Event Loop
-
-[The event loop](https://nodejs.dev/the-nodejs-event-loop) is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
-
 ##### Avoiding Callback hell
 
 > Sometimes it might not be possible to avoid callback hell in every case. So one thing you can do in such cases is; adding meaningful and organize comments in the code.
@@ -141,6 +137,10 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 1. Split the callbacks into different functions
 2. Use promises
 3. Use asynchronous functions (Async/Await)
+
+### Event Loop
+
+[The event loop](https://nodejs.dev/the-nodejs-event-loop) is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded.
 
 ## Core Modules
 

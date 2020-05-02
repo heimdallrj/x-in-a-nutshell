@@ -9,9 +9,7 @@
 
 ## [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
-### Concepts and Keywords
-
-**Components**
+### Components
 
 ```text
 Basic *building blocks* of React Application are *Components*
@@ -33,7 +31,7 @@ There are *Two Types* of React Components;
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/2.jpg)
 
-***Stateless Components***
+#### Stateless Components
 
 ```text
 *Pure Function* React Component.
@@ -43,7 +41,7 @@ Returns *HTML* Markup.
 No *Advanced Component Logics* included.
 ```
 
-***Stateful Components***
+#### Stateful Components
 
 ```text
 JavaScript *Class*
@@ -54,7 +52,7 @@ Includes;
 - Advanced Component Logics
 ```
 
-***Higher-Order Components***
+#### Higher-Order Components
 
 ```js
 const higherOrderComponent = (Component) => {
@@ -65,11 +63,11 @@ const higherOrderComponent = (Component) => {
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
 ```
 
-**State vs Props**
+### State vs Props
 
 ![](https://github.com/thinkholic/x-101/raw/master/assets/3.jpg)
 
-**JSX**
+### JSX
 
 ```text
 Stands for *JavaScript XML*.
@@ -345,7 +343,7 @@ HelloWorld.defaultProps = {
 };
 ```
 
-### Sample Application Structure
+### Application Structure
 
 **index.html**
 ```html

@@ -44,8 +44,8 @@ Before attending this course, it is recommended that students:
 Note: the course material contains much more information than what is covered in class, but will serve as a useful reference to the learner going forward.
 
 - An introduction to Python
-o     Introduction to Python
-o     How to use IDLE to develop programs
+-- Introduction to Python
+-- How to use IDLE to develop programs
 
 - How to write your first program
 o     Basic coding skills

@@ -1,4 +1,4 @@
-# Python Programming - Basics for Non-Programmers Course Outline
+# Programming Basics for Non-Programmers with Python
 
 ## Overview
 This is an introductory Python programming course which provides a strong foundation that would allow students to further their skills with additional education. The course begins with an overview of Python and quickly has students building simple applications. Python syntax, including function and module design is considered. File consumption and exception handling are also included early in the class. In addition, there is an examination of using different data types.

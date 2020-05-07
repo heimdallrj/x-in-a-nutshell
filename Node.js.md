@@ -132,8 +132,6 @@ Source: [quora.com](https://www.quora.com/What-is-callback-hell)
 
 ##### Avoiding Callback hell
 
-> Sometimes it might not be possible to avoid callback hell in every case. So one thing you can do in such cases is; adding meaningful and organize comments in the code.
-
 1. Split the callbacks into different functions
 2. Use promises
 3. Use asynchronous functions (Async/Await)

@@ -93,17 +93,16 @@ This course is specially designed for individuals with prior programming backgro
   - Modifying the Contents of an Array in a Loop
 - Filling an Array
 #### Slice
-Exercise 4.08: Working with Slices 
-Activity 4.02: Printing a User's Name Based on User Input
-Appending Multiple Items to a Slice
-Exercise 4.09: Appending Multiple Items to a Slice
-Activity 4.03: Creating a Locale Checker
-Creating Slices from Slices and Arrays
-Exercise 4.10: Creating Slices from a Slice
-Understanding Slice Internals 
-Exercise 4.11: Using make to Control the Capacity of a Slice
-Background Behavior of Slices 
-Exercise 4.12: Controlling Internal Slice Behavior
+- Working with Slices 
+  - Printing a User's Name Based on User Input
+  - Appending Multiple Items to a Slice
+  - Creating a Locale Checker
+  - Creating Slices from Slices and Arrays
+    - Creating Slices from a Slice
+- Understanding Slice Internals 
+  - Using make to Control the Capacity of a Slice
+  - Background Behavior of Slices 
+  - Controlling Internal Slice Behavior
 #### Map Fundamentals
 Exercise 4.13: Creating, Reading, and Writing a Map
 Reading from Maps

@@ -20,25 +20,19 @@ This course is specially designed for individuals with prior programming backgro
   - Declaring Multiple Variables at Once with var
   - Skipping the Type or Value When Declaring Variables
   - Type Inference Gone Wrong
-Short Variable Declaration
-Exercise 1.05: Implementing Short Variable Declaration
-Declaring Multiple Variables with a Short Variable Declaration
-Exercise 1.06: Declaring Multiple Variables from a Function
-Using var to Declare Multiple Variables in One Line
-Non-English Variable Names
-Changing the Value of a Variable
-Exercise 1.07: Changing the Value of a Variable
-Changing Multiple Values at Once
-Exercise 1.08: Changing Multiple Values at Once
-Operators
-Exercise 1.09 Using Operators with Numbers
-Shorthand Operator
-Exercise 1.10: Implementing Shorthand Operators
-Comparing Values
-Exercise 1.11: Comparing Values
-Zero Values
-Exercise 1.12 Zero Values
-Value versus Pointer
+  - Short Variable Declaration
+  - Declaring Multiple Variables with a Short Variable Declaration
+  - Declaring Multiple Variables from a Function
+  - Using var to Declare Multiple Variables in One Line
+  - Non-English Variable Names
+  - Changing the Value of a Variable
+  - Changing Multiple Values at Once
+- Operators
+  - Using Operators with Numbers
+  - Shorthand Operators
+  - Comparing Values
+  - Zero Values
+- Value versus Pointer
 Getting a Pointer
 Exercise 1.13: Getting a Pointer 
 Getting a Value from a Pointer

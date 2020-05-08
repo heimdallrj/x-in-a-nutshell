@@ -80,23 +80,18 @@ This course is specially designed for individuals with prior programming backgro
 - The nil Value
 
 ### 4: Complex Types
-Introduction
-Collection Types
+- Introduction
+- Collection Types
 #### Arrays
-Exercise 4.01: Defining an Array
-Comparing Arrays
-Exercise 4.02: Comparing Arrays
-Initializing Arrays Using Keys
-Exercise 4.03: Initializing an Array Using Keys
-Reading from an Array
-Exercise 4.04: Reading a Single Item from an Array
-Writing to an Array
-Exercise 4.05: Writing to an Array
-Looping an Array
-Exercise 4.06: Looping Over an Array Using a "for i" Loop
-Modifying the Contents of an Array in a Loop
-Exercise 4.07: Modifying the Contents of an Array in a Loop
-Activity 4.01: Filling an Array
+- Defining an Array
+- Comparing Arrays
+- Initializing Arrays Using Keys
+- Reading from an Array
+- Writing to an Array
+- Looping an Array
+  - Looping Over an Array Using a `for i` Loop
+  - Modifying the Contents of an Array in a Loop
+- Filling an Array
 #### Slice
 Exercise 4.08: Working with Slices 
 Activity 4.02: Printing a User's Name Based on User Input

@@ -1,4 +1,4 @@
-# Introduction to Python 3 Course Outline
+# Introduction to Python 3
 
 ## Overview
 In this live, instructor-led Python training course, students learn to program in Python. The course is aimed at students new to the language and who may, or may not, have experience with other programming languages. Students will learn: how Python works and its place in the world of programming languages; to work with and manipulate strings; to perform math operations; to work with Python sequences; to collect user input and output results; flow control processing; to write to, and read from, files; to write functions; to handle exception; and work with dates and times. This Python course is taught using Python 3; however, differences between Python 2 and Python 3 are noted.
@@ -7,8 +7,8 @@ In this live, instructor-led Python training course, students learn to program i
 Students new to the language who have experience with other programming languages.
 
 ## Prerequisites
-This course is specially designed for individuals with prior programming background. Also it assumes a working knowledge of Object Oriented Programming concepts. If you have no prior programming experience or or not familiar with Object Oriented Programming, you should consider our "Python Programming - Basics for Non-Programmers" course. For details on this alternative slower paced course for non-programmers, go to
-Python Programming - Basics for Non-Programmers
+This course is specially designed for individuals with prior programming background. Also it assumes a working knowledge of Object Oriented Programming concepts. If you have no prior programming experience or or not familiar with Object Oriented Programming, you should consider our "Programming Basics for Non-Programmers with Python" course. For details on this alternative slower paced course for non-programmers, go to
+Programming Basics for Non-Programmers with Python
 
 ## Course Outline
 ### Fundamentals of  Python – Math, Strings, Conditionals, and Loops

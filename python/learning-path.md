@@ -14,7 +14,7 @@ Each level covers a subset of the language that you need to master before you mo
 
 My focus on this article is for you to be a competent well-rounded programmer so you can easily get a job at any tech company that you choose.
 
-But don’t worry, you don’t need to go all the way to level 6 in order to get your first job 🙂
+But don’t worry, you don’t need to go all the way to level 6 in order to get your first job :)
 
 Let’s get started.
 
@@ -255,14 +255,14 @@ Before you dive in and write your first parallel program, there are some paralle
 
 Here are some of these concepts.
 
-Mutual Exclusion
+### Mutual Exclusion
 When you have some data that is shared across multiple threads or processes, it is important to synchronize access to these shared resources.
 
 If you don’t, a race condition can happen which might lead to unexpected and sometimes disastrous consequences. I will talk more about race conditions later.
 
 Mutual exclusion means that one thread blocks the further progress of other concurrent threads that require the use of the shared resource.
 
-Locks
+### Locks
 Locks is one of the various implementations of mutual exclusion.
 
 To understand what locks are, you can think about them from a conceptual perspective.
@@ -275,7 +275,7 @@ If the lock is not available because it is grabbed by another thread, then the t
 
 This simple concept guarantees that at most one thread can have access to a shared resource at a time.
 
-Deadlocks
+### Deadlocks
 A deadlock is when your program comes to a complete halt because some of the threads can’t progress further because they can’t acquire a lock.
 
 For example, imagine Thread A is waiting on Thread B to release a lock. At the same time, Thread B is waiting on Thread A to release another lock that Thread A is currently holding.
@@ -288,13 +288,13 @@ And it happens more often than you think.
 
 To make the situation worse, it’s also one of the hardest problems to debug.
 
-Race conditions
+### Race conditions
 As I mentioned earlier, a race condition is a situation that arises when accessing a shared resource isn’t protected (for example, by locks).
 
 This can lead to disastrous unexpected outcomes.
 
 Take a look at this example.
-
+```python
 import threading
 # x is a shared value
 x = 0
@@ -318,14 +318,17 @@ t1.join()
 t2.join()
 
 print(x)
-Here is what the code above does. There is a shared global variable x that is initialized to 0.
+```
 
-Two functions inc and dec run in parallel. inc() increments the value of x 1 million times whereas dec() decrements the value of x 1 million times.
+Here is what the code above does. There is a shared global variable `x` that is initialized to 0.
 
-By quickly going through the code, it can be concluded that the final value of x should be 0… but is it?
+Two functions inc and dec run in parallel. `inc()` increments the value of `x` 1 million times whereas `dec()` decrements the value of `x` 1 million times.
+
+By quickly going through the code, it can be concluded that the final value of `x` should be 0… but is it?
 
 Here is what I get when I run the above code.
 
+```bash
  $ python3 race.py
 158120
  $ python3 race.py
@@ -334,6 +337,8 @@ Here is what I get when I run the above code.
 -150265
  $ python3 race.py
 715644
+```
+
 The reason why this is happening is that the shared resource x is not protected (by locks for example).
 
 Python’s Parallel Programming

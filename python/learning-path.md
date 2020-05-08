@@ -97,7 +97,7 @@ z = True or False
 
 In order to write any program that is useful, you almost always will need the ability to check conditions and change the behavior of the program accordingly.
 
-Conditional statements using if, if else, or if elsif else gives you this ability.
+Conditional statements using `if`, `if else`, or `if elsif else` gives you this ability.
 
 Here is an example of an if-else statement in Python.
 
@@ -115,7 +115,7 @@ A function is essentially a block of Python code that only runs when it is calle
 
 You can pass parameters into a function as input and a function can return data as output.
 
-In Python, you define a function using the def keyword.
+In Python, you define a function using the `def` keyword.
 
 Here is an example of a hello world program using a function `say_hello`
 
@@ -150,12 +150,9 @@ So even though this is level 0, don’t take it lightly.
 
 ## Level 1: Object-oriented Programming
 
-
-Before we start, if you are at this level, make sure you sign up so that you can get notified when my premium OOP course becomes live.
-
 Everything in Python is an object.
 
-You either heard this already, or you are destined to hear about it 🙂
+You either heard this already, or you are destined to hear about it.
 
 But wait a minute, what exactly is an object?
 
@@ -163,11 +160,11 @@ There are many different ways, models, or paradigms to write computer programs.
 
 One of the most popular programming paradigms is called object-oriented programming (OOP).
 
-In object-oriented programming, an object refers to a particular instance of a Class.
+In object-oriented programming, an _object_ refers to a particular instance of a _Class_.
 
-And a Class is like a blueprint of the state and actions that an object can take.
+And a _Class_ is like a blueprint of the state and actions that an object can take.
 
-For example, in Python, a Person Class might look something like this.
+For example, in Python, a _Person_ class might look something like this.
 
 ```python
 class Person:
@@ -178,21 +175,21 @@ class Person:
   def get_name(self):
     return self.name
 ```
-The class declared above describes the state and actions of any Person object.
+The class declared above describes the state and actions of any _Person_ object.
 
-For example, any Person object will have a name and an age. These two fields are what determines the state of the object.
+For example, any _Person_ object will have a `name` and an `age`. These two fields are what determines the state of the object.
 
 In OOP’s terminology, name and age are called the object attributes.
 
 You can also call `get_name()` on any Person object to return the name of the person.
 
-We call get_name a method.
+We call `get_name` a method.
 
 And this method, in addition to any other methods that we define, is what determines the object’s actions.
 
-In other words, a Python object has attributes and methods that are defined in the object’s Class.
+In other words, a Python object has attributes and methods that are defined in the object’s _Class_.
 
-Here’s how to create a Person object
+Here’s how to create a _Person_ object
 
 ```python
 >>> p = Person('Alice', 22)
@@ -211,7 +208,7 @@ As I mentioned earlier, OOP is a programming paradigm, a way of structuring and 
 
 OOP concepts are not exclusive to Python so the concepts you will learn will easily transition to any other programming language.
 
-Some examples of these concepts are inheritance, encapsulation, and polymorphism.
+Some examples of these concepts are _inheritance_, _encapsulation_, and _polymorphism_.
 
 So make sure you understand these concepts at an abstract level first before you jump into Python’s OOP.
 
@@ -354,9 +351,7 @@ All of these modules provide you with the primitives you need to write parallel 
 
 Here is a good article about multiprocessing in Python.
 
-
 ## Level 3: Socket Programming
-
 
 By now you should be very comfortable writing Python code that runs on a single machine.
 
@@ -372,7 +367,7 @@ It’s like magic. I still remember the exhilaration I felt the first time I had
 
 Follow these three steps to get started.
 
-Step 1: Write an Echo Program
+### Step 1: Write an Echo Program
 In this step, you will use Python’s socket module to write a simple TCP server on one machine and a TCP client on another.
 
 Make sure they are two different computers and that both of them are connected to your home network.
@@ -385,14 +380,14 @@ Think of the Echo program as the Hello World program but for socket programming.
 
 After that, you can move on to more complex programs.
 
-Step 2: Play around with HTTP
+### Step 2: Play around with HTTP
 Once you’re comfortable with writing simple TCP client-server applications, you can start using Python’s requests module to send and receive HTTP messages.
 
 This is especially useful because the vast majority of web services these days provide an HTTP API interface that you can interact with programmatically. For example, Facebook, Twitter, and Google maps all have HTTP API interfaces that your code can communicate with.
 
 And if you feel a little more adventurous and want to take this a bit further, you can also scrape the web with BeautifulSoup.
 
-Step 3: Know thy tools
+### Step 3: Know thy tools
 Like any other program, sometimes when you write a networking program, your program will not work from the first attempt.
 
 However, debugging networking programs is a little different than debugging regular programs.
@@ -401,24 +396,17 @@ That’s why you need to equip yourself with the tools necessary to troubleshoot
 
 Here are some of the most popular networking tools that you will need.
 
-ping is used to check the connectivity between your machine and another one.
+`ping` is used to check the connectivity between your machine and another one.
 
+`netstat` is a versatile networking tool that allows you to, among other things, monitor network connections both incoming and outgoing.
 
-
-netstat is a versatile networking tool that allows you to, among other things, monitor network connections both incoming and outgoing.
-
-tcpdump is one of my favorite tools for learning networks. It tools allows you to listen to, capture, and analyze real packets going into and out of your computer through any network interface.
+`tcpdump` is one of my favorite tools for learning networks. It tools allows you to listen to, capture, and analyze real packets going into and out of your computer through any network interface.
 
 Wireshark is a nice GUI interface that does pretty much everything that tcpdump can do. I recommend starting out with Wireshark before moving on to tcpdump just because it’s a little more user-friendly.
 
-
-
 And like I said, to understand what all these Get, SYN, SYN ACK, FIN mean you need to learn networking fundamentals first.
 
-
-
 ## Level 4: Data Structures and Algorithms in Python
-
 
 If you reached this level, give yourself a pat on the shoulder.
 
@@ -438,18 +426,22 @@ The knowledge you have learned so far in the previous levels are not enough for 
 
 Don’t believe me? Look at this simple code that calculates the nth Fibonacci number.
 
+```python
 def fib(n):
     if n < 2:
         return n
     return fib(n-2) + fib(n-1)
 
 print(fib(100))
+```
+
 The code looks simple enough and very straightforward, right?
 
-Try using this code to calculate fib(100) [SPOILER ALERT: it will take an extremely long time]
+Try using this code to calculate `fib(100)` [SPOILER ALERT: it will take an extremely long time]
 
 Now let’s make a simple modification to the code.
 
+```python
 def fib(n, d):
     if n < 2:
         return n
@@ -458,6 +450,8 @@ def fib(n, d):
     return d[n]
 
 print(fib(100, {}))
+```
+
 This time all it took was a few milliseconds and you will get the answer, which is 354224848179261915075 just in case you’re wondering 🙂
 
 I used what’s called dynamic programming to solve this problem and make it run astronomically faster.
@@ -471,8 +465,6 @@ You will need to learn about linked lists, trees, stacks, queues, graphs, hash t
 Once you master these concepts, you are steps away from getting a software engineering job at any tech company of your choice.
 
 I really mean it!
-
-
 
 ## Level 5: Python Coding Interview Practice
 Congratulations! Now you have what it takes to apply for any software engineering job in any tech company in the whole world.
@@ -490,8 +482,6 @@ The best way to pass coding interviews is to give yourself an ample amount of ti
 The more you prepare, the better your interview experience will be, and the more likely you will land your dream job.
 
 Leetcode is an excellent resource with a ton of coding interview questions.
-
-
 
 Leetcode allows you to submit your Python solutions to the coding questions and get instant feedback about the validity and the efficiency of your solutions.
 
@@ -528,8 +518,6 @@ Knowing what libraries to use and when to use them can save you a lot of time an
 So let’s talk about some of the most popular Python libraries and frameworks.
 
 1. Building API services with Python (Flask)
-
-
 These days, the way large and scalable web applications are built is by creating a bunch of smaller applications that communicate with each other.
 
 This architecture is called a micro-services architecture [buzzword alert] and each of these smaller applications is called a service or micro-service.
@@ -556,7 +544,6 @@ And while we’re at the topic of ORM, It’s worth mentioning that you should t
 So roll up your sleeves and go ahead, create your first web application 🙂
 
 3. Machine Learning Libraries
-
 Python has become the de-facto language for machine learning and data science.
 
 This comes as no surprise, given the maturity of Python’s machine learning libraries.
@@ -584,10 +571,14 @@ Do you want to see how the bytecode looks like for a simple Hello World program?
 
 Let’s create a source file helloworld.py
 
+```python
 # helloworld.py
 print("hello world")
+```
+
 Here is how to view the bytecode for the above source code
 
+```bash
 $ python3 -m dis helloworld.py
 2           0 LOAD_NAME                0 (print)
             2 LOAD_CONST               0 ('hello world')
@@ -595,6 +586,8 @@ $ python3 -m dis helloworld.py
             6 POP_TOP
             8 LOAD_CONST               1 (None)
            10 RETURN_VALUE
+```
+
 This bytecode will then be interpreted by an interpreter. This is when it gets executed and you finally see hello world printed on your screen.
 
 There are various Python implementations for the compiler and the interpreter.

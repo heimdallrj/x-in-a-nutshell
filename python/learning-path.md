@@ -60,7 +60,7 @@ In the Python snippet above, we define a variable msg that stores the value Hell
 
 This allows us to later print Hello World! on the screen by just using the variable name that stores this value instead of having to type the value Hello World! every time we want to use it.
 
-Data Types
+### Data Types
 We talked about variables as storage for data, now let’s talk about data.
 
 In Python, data has types.
@@ -73,7 +73,7 @@ But strings aren’s the only data type in Python, there are also integers, floa
 
 By the end of level 0, you need to be comfortable with these data types and understand when (and how) to use them in your program.
 
-Operations
+### Operations
 Operations is how you manipulate and change data in your program.
 
 In other words, your programs need to operate on data and produce more data, that you also operate on, until you reach the final outcome.
@@ -93,8 +93,7 @@ y = 3 > 4
 z = True or False
 ```
 
-Conditionals
-
+### Conditionals
 
 In order to write any program that is useful, you almost always will need the ability to check conditions and change the behavior of the program accordingly.
 
@@ -108,15 +107,17 @@ Here is an example of an if-else statement in Python.
 ...   print('3 is not greater than 5')
 ...
 3 is not greater than 5
-Functions
+
+### Functions
 A function is essentially a block of Python code that only runs when it is called.
 
 You can pass parameters into a function as input and a function can return data as output.
 
 In Python, you define a function using the def keyword.
 
-Here is an example of a hello world program using a function say_hello
+Here is an example of a hello world program using a function `say_hello`
 
+```python
 def say_hello(msg):
   # this is the function
   # msg is the input parameter
@@ -124,9 +125,11 @@ def say_hello(msg):
 
 # calling the say_hello function
 say_hello('world')
-
+```
+```bash
 # output:
-# hello world
+hello world
+```
 So this was an example of the fundamental concepts that you should learn at this level.
 
 But most importantly, what you really need to do in order to master this level is to use the above concepts to solve problems.

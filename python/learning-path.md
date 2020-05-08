@@ -556,9 +556,9 @@ If you prefer a video course instead, then you should take Andrew Ng’s ML cour
 
 Once you have the basics covered, start playing around with these Python libraries.
 
-1. scikit-learn This library has everything under the sun when it comes to ML algorithms.
-2. Tensorflow Another very popular open-source machine learning framework.
-3. pandas A popular data analysis library.
+1. *scikit-learn* This library has everything under the sun when it comes to ML algorithms.
+2. *Tensorflow* Another very popular open-source machine learning framework.
+3. *pandas* A popular data analysis library.
 
 ### Optional 2: Python Implementation (CPython)
 Python is an interpreted language.

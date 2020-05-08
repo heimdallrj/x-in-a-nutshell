@@ -396,13 +396,13 @@ That’s why you need to equip yourself with the tools necessary to troubleshoot
 
 Here are some of the most popular networking tools that you will need.
 
-`ping` is used to check the connectivity between your machine and another one.
+* `ping` is used to check the connectivity between your machine and another one.
 
-`netstat` is a versatile networking tool that allows you to, among other things, monitor network connections both incoming and outgoing.
+* `netstat` is a versatile networking tool that allows you to, among other things, monitor network connections both incoming and outgoing.
 
-`tcpdump` is one of my favorite tools for learning networks. It tools allows you to listen to, capture, and analyze real packets going into and out of your computer through any network interface.
+* `tcpdump` is one of my favorite tools for learning networks. It tools allows you to listen to, capture, and analyze real packets going into and out of your computer through any network interface.
 
-Wireshark is a nice GUI interface that does pretty much everything that tcpdump can do. I recommend starting out with Wireshark before moving on to tcpdump just because it’s a little more user-friendly.
+* Wireshark is a nice GUI interface that does pretty much everything that tcpdump can do. I recommend starting out with Wireshark before moving on to tcpdump just because it’s a little more user-friendly.
 
 And like I said, to understand what all these Get, SYN, SYN ACK, FIN mean you need to learn networking fundamentals first.
 

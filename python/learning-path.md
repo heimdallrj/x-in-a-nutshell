@@ -484,10 +484,7 @@ After you start working, you will learn a lot on the job and you will start gain
 
 This is when level 6 starts.
 
-
-
 ## Level 6: Advanced Python
-
 
 If you want to venture into the territory of Python fluency and take your skills to the next level, then I highly recommend the “Fluent Python” book.
 
@@ -504,7 +501,7 @@ Thissobjects in Python
 Control Flow: covers the topic of generators, context managers, coroutines, and concurrency
 Metaprogramming: essentially this is writing code that manipulates code. Some of the topics discussed here are decorators and meta-classes
 
-Optional 1: Python Libraries and Frameworks
+### Optional 1: Python Libraries and Frameworks
 Now you have all the basics covered, you are a Python pro.
 
 Well done.
@@ -545,7 +542,6 @@ So roll up your sleeves and go ahead, create your first web application 🙂
 
 3. Machine Learning Libraries
 
-
 Python has become the de-facto language for machine learning and data science.
 
 This comes as no surprise, given the maturity of Python’s machine learning libraries.
@@ -564,7 +560,7 @@ Once you have the basics covered, start playing around with these Python librari
 
 3- pandas A popular data analysis library.
 
-Optional 2: Python Implementation (CPython)
+### Optional 2: Python Implementation (CPython)
 Python is an interpreted language.
 
 This means that your Python code doesn’t get compiled down to a machine code directly, but first, it is compiled to an intermediate language, called byte code, which is later interpreted by another piece of software called the interpreter.

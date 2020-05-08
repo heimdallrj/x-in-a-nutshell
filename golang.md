@@ -121,21 +121,20 @@ This course is specially designed for individuals with prior programming backgro
 
 ### 5: Functions
 #### Introduction 
-Functions 
-Parts of a function 
-fizzBuzz
+#### Functions 
+- Parts of a function 
+#### fizzBuzz
 Exercise 5.01: Creating a Function to Print Salesperson
-Expectation Ratings from the Number of Items Sold
-Parameters
-The Difference between an Argument and a Parameter
-Exercise 5.02: Mapping Index Values to Column Headers
-Function Variable Scope
-#### Return Values
+- Expectation Ratings from the Number of Items Sold
+#### Parameters
+  - The Difference between an Argument and a Parameter
+  - Function Variable Scope
+  - Return Values
 #### Naked Returns
-#### Variadic Function
-#### Anonymous Functions
+- Variadic Function
+- Anonymous Functions
 #### Closures
-#### Function Types
+  - Function Types
 #### `defer`
 
 ### 6: Errors

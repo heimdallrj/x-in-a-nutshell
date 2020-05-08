@@ -124,7 +124,7 @@ This course is specially designed for individuals with prior programming backgro
 #### Functions 
 - Parts of a function 
 #### fizzBuzz
-Exercise 5.01: Creating a Function to Print Salesperson
+- Creating a simple Function
 - Expectation Ratings from the Number of Items Sold
 #### Parameters
   - The Difference between an Argument and a Parameter

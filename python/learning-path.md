@@ -82,6 +82,7 @@ This is just the lifecycle of any program.
 
 In Python and all programming languages, there exists at least Arithmetic, Comparison, and Logic operations.
 
+```python
 # an example of an arithmetic operation
 x = 5 + 2
 
@@ -90,6 +91,8 @@ y = 3 > 4
 
 # an example of a logic operation
 z = True or False
+```
+
 Conditionals
 
 

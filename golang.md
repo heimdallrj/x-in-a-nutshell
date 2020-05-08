@@ -4,10 +4,10 @@
 <todo>
 
 ## Audience
-Students new to the language who have experience with other programming languages.
+Students new to the Go programming language who have experience with other programming languages.
 
 ## Prerequisites
-This course is specially designed for individuals with prior programming background. Also it assumes a working knowledge of basic Object Oriented Programming concepts. If you have no prior programming experience or or not familiar with Object Oriented Programming, you should consider our "Programming Basics for Non-Programmers with Python" course.
+This course is specially designed for individuals with prior programming background. Also it assumes a working knowledge of basic Object Oriented Programming concepts. If you have no prior programming experience or not familiar with Object Oriented Programming, you should consider our "Programming Basics for Non-Programmers with Python" course.
 
 ## Course Outline
 ### 1: Variables and Operators
@@ -64,25 +64,20 @@ This course is specially designed for individuals with prior programming backgro
   - Bubble Sort
 
 ### 3: Core Types
-Introduction 
-True and False 
-Exercise 3.01: Program to Measure Password Complexity
-Numbers
-Integer
-Floating Point 
-Exercise 3.02: Floating-Point Number Accuracy
-Overflow and Wraparound
-Exercise 3.03: Triggering Number Wraparound
-Big Numbers
-Exercise 3.04: Big Numbers
-Byte
-Text
-Rune
-Exercise 3.05: Safely Looping over a String
-The nil Value
-Activity 3.01: Sales Tax Calculator
-Activity 3.02: Loan Calculator
-Summary
+- Introduction 
+- True and False
+- Numbers
+  - Integer
+  - Floating Point 
+    - Floating-Point Number Accuracy
+  - Overflow and Wraparound
+    - Triggering Number Wraparound
+  - Big Numbers
+- Byte
+- Text
+  - Rune
+  - Safely Looping over a String
+- The nil Value
 
 ### 4: Complex Types
 Introduction

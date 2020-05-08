@@ -140,7 +140,7 @@ So even though this is level 0, don’t take it lightly.
 
 
 
-Level 1: Object-oriented Programming
+## Level 1: Object-oriented Programming
 
 
 Before we start, if you are at this level, make sure you sign up so that you can get notified when my premium OOP course becomes live.
@@ -222,7 +222,7 @@ The more you practice, the more you will feel at ease with OOP.
 
 
 
-Level 2: Concurrent and Parallel Programming
+## Level 2: Concurrent and Parallel Programming
 
 
 The days of single-core processors are far gone.
@@ -340,7 +340,7 @@ All of these modules provide you with the primitives you need to write parallel 
 Here is a good article about multiprocessing in Python.
 
 
-Level 3: Socket Programming
+## Level 3: Socket Programming
 
 
 By now you should be very comfortable writing Python code that runs on a single machine.
@@ -402,7 +402,7 @@ And like I said, to understand what all these Get, SYN, SYN ACK, FIN mean you ne
 
 
 
-Level 4: Data Structures and Algorithms in Python
+## Level 4: Data Structures and Algorithms in Python
 
 
 If you reached this level, give yourself a pat on the shoulder.
@@ -459,7 +459,7 @@ I really mean it!
 
 
 
-Level 5: Python Coding Interview Practice
+## Level 5: Python Coding Interview Practice
 Congratulations! Now you have what it takes to apply for any software engineering job in any tech company in the whole world.
 
 You only need to pass this dreaded coding interview.
@@ -486,7 +486,7 @@ This is when level 6 starts.
 
 
 
-Level 6: Advanced Python
+## Level 6: Advanced Python
 
 
 If you want to venture into the territory of Python fluency and take your skills to the next level, then I highly recommend the “Fluent Python” book.

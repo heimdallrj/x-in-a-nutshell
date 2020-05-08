@@ -92,7 +92,8 @@ Programming Basics for Non-Programmers with Python
 - Shebangs in Ubuntu
 - Docstrings
 - Imports
-- The `if __name__ == "__main__"` Statement
+- The ```python
+if __name__ == "__main__"``` Statement
 - Basic Functions
 - Positional Arguments
 - Keyword Arguments

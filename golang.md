@@ -43,8 +43,8 @@ This course is specially designed for individuals with prior programming backgro
 - Scope
 
 ### 2: Logic and Loops
-- Introduction
-- Logic
+#### Introduction
+#### Logic
   - `if` Statements
   - `if else` Statements
   - `else if` Statements
@@ -53,7 +53,7 @@ This course is specially designed for individuals with prior programming backgro
     - Using a `switch` Statement
     - `switch` Statements and Multiple `case` Values
     - Expressionless `switch` Statements
-- Loops
+#### Loops
   - The `for i` Loop
     - Looping Over Arrays and Slices
   - The `range` Loop
@@ -64,20 +64,20 @@ This course is specially designed for individuals with prior programming backgro
   - Bubble Sort
 
 ### 3: Core Types
-- Introduction 
-- True and False
-- Numbers
+#### Introduction 
+#### True and False
+#### Numbers
   - Integer
   - Floating Point 
     - Floating-Point Number Accuracy
   - Overflow and Wraparound
     - Triggering Number Wraparound
   - Big Numbers
-- Byte
-- Text
+#### Byte
+#### Text
   - Rune
   - Safely Looping over a String
-- The nil Value
+#### The nil Value
 
 ### 4: Complex Types
 - Introduction
@@ -112,19 +112,12 @@ This course is specially designed for individuals with prior programming backgro
 #### Simple Custom Types 
   - Creating a Simple Custom Type
 #### Structs
-Exercise 4.17: Creating Struct Types and Values
-Comparing Structs to Each Other
-Exercise 4.18: Comparing Structs to Each Other
-Struct Composition Using Embedding
-Exercise 4.19: Struct Embedding and Initialization
-Type Conversions
-Exercise 4.20: Numeric Type Conversion
-Type Assertions and interface{}
-Exercise 4.21: Type Assertion 
-Type Switch
-Exercise 4.22: Type Switch
-Activity 4.06: Type Checker
-Summary
+- Creating Struct Types and Values
+- Comparing Structs to Each Other
+- Struct Composition Using Embedding
+- Type Conversions
+- Type Assertions and `interface{}`
+- Type Switch
 
 ### 5: Functions
 Introduction 
@@ -289,12 +282,12 @@ Activity 12.01: Parsing Bank Transaction Files459
 Summary
 
 ### 13: SQL and Databases
-Introduction 
-The Database 
-Database API and Drivers 
-Connecting to Databases
-Creating Tables
-Inserting Data 
+- Introduction 
+- The Database 
+- Database API and Drivers 
+- Connecting to Databases
+- Creating Tables
+- Inserting Data 
 Exercise 13.01: Creating a Table with Numbers 477
 Retrieving Data
 Updating Existing Data 

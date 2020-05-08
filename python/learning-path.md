@@ -206,7 +206,7 @@ However, I want you to understand that it is not the only way, and it is not nec
 
 In order to learn OOP in Python, you need to progress through a few steps.
 
-Step 1: Learn the concepts of OOP
+### Step 1: Learn the concepts of OOP
 As I mentioned earlier, OOP is a programming paradigm, a way of structuring and designing your code.
 
 OOP concepts are not exclusive to Python so the concepts you will learn will easily transition to any other programming language.
@@ -215,14 +215,14 @@ Some examples of these concepts are inheritance, encapsulation, and polymorphism
 
 So make sure you understand these concepts at an abstract level first before you jump into Python’s OOP.
 
-Step 2: Learn about Python’s Classes and Objects
+### Step 2: Learn about Python’s Classes and Objects
 In this step, you need to apply the abstract concepts you learned in the previous step but specifically in Python.
 
 Get comfortable with writing Classes and creating Objects.
 
 Write classes that inherit from other classes and investigate the attributes and methods of the objects created.
 
-Step 3: Solve Python problems using OOP
+### Step 3: Solve Python problems using OOP
 This is a crucial step.
 
 In this step, you want to learn how to use OOP to design and structure your code.

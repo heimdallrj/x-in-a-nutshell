@@ -120,7 +120,7 @@ This course is specially designed for individuals with prior programming backgro
 - Type Switch
 
 ### 5: Functions
-Introduction 
+#### Introduction 
 Functions 
 Parts of a function 
 fizzBuzz
@@ -130,25 +130,13 @@ Parameters
 The Difference between an Argument and a Parameter
 Exercise 5.02: Mapping Index Values to Column Headers
 Function Variable Scope
-Return Values
-Exercise 5.03: Creating a fizzBuzz Function with Return Values
-Activity 5.01: Calculating the Working Hours of Employees
-Naked Returns
-Exercise 5.04: Mapping a CSV Index to a Column Header
-with Return Values
-Variadic Function
-Exercise 5.05: Summing Numbers
-Anonymous Functions 
-Exercise 5.06: Creating an Anonymous Function to Calculate
-the Square Root of a Number
-Closures
-Exercise 5.07: Creating a Closure Function to Decrement a Counter
-Function Types 
-Exercise 5.08: Creating Various Functions to Calculate Salary
-defer
-Activity 5.02: Calculating Payable Amount for Employees
-Based on Working Hours 
-Summary
+#### Return Values
+#### Naked Returns
+#### Variadic Function
+#### Anonymous Functions
+#### Closures
+#### Function Types
+#### `defer`
 
 ### 6: Errors
 Introduction 

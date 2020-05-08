@@ -402,9 +402,9 @@ Here are some of the most popular networking tools that you will need.
 
 * `tcpdump` is one of my favorite tools for learning networks. It tools allows you to listen to, capture, and analyze real packets going into and out of your computer through any network interface.
 
-* Wireshark is a nice GUI interface that does pretty much everything that tcpdump can do. I recommend starting out with Wireshark before moving on to tcpdump just because it’s a little more user-friendly.
+* _Wireshark_ is a nice GUI interface that does pretty much everything that `tcpdump` can do. I recommend starting out with Wireshark before moving on to tcpdump just because it’s a little more user-friendly.
 
-And like I said, to understand what all these Get, SYN, SYN ACK, FIN mean you need to learn networking fundamentals first.
+And like I said, to understand what all these `Get`, `SYN`, `SYN ACK`, `FIN` mean you need to learn networking fundamentals first.
 
 ## Level 4: Data Structures and Algorithms in Python
 

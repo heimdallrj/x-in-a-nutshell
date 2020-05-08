@@ -11,11 +11,11 @@ This course is specially designed for individuals with prior programming backgro
 
 ## Course Outline
 ### 1: Variables and Operators
-- Introduction 
-- What Does Go Look Like?
-- Using Variables, Packages, and Functions to Print Stars
+#### Introduction 
+#### What Does Go Look Like?
+#### Using Variables, Packages, and Functions to Print Stars
   - Defining and Printing
-- Declaring Variables 
+#### Declaring Variables 
   - Declaring a Variable Using `var`
   - Declaring Multiple Variables at Once with `var`
   - Skipping the Type or Value When Declaring Variables
@@ -27,20 +27,20 @@ This course is specially designed for individuals with prior programming backgro
   - Non-English Variable Names
   - Changing the Value of a Variable
   - Changing Multiple Values at Once
-- Operators
+#### Operators
   - Using Operators with Numbers
   - Shorthand Operators
   - Comparing Values
   - Zero Values
-- Pointers
+#### Pointers
   - Value versus Pointer
   - Getting a Pointer
   - Getting a Value from a Pointer
   - Function Design with Pointers
   - Pointer Value Swap
-- Constants
- - Enums
-- Scope
+#### Constants
+  - Enums
+#### Scope
 
 ### 2: Logic and Loops
 #### Introduction

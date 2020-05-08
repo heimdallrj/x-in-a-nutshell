@@ -32,21 +32,15 @@ This course is specially designed for individuals with prior programming backgro
   - Shorthand Operators
   - Comparing Values
   - Zero Values
-- Value versus Pointer
-Getting a Pointer
-Exercise 1.13: Getting a Pointer 
-Getting a Value from a Pointer
-Exercise 1.14: Getting a Value from a Pointer
-Function Design with Pointers
-Exercise 1.15: Function Design with Pointers
-Activity 1.02: Pointer Value Swap
-Constants
-Exercise 1.16: Constants
-Enums
-Scope
-Activity 1.03: Message Bug
-Activity 1.04: Bad Count Bug
-Summary
+- Pointers
+  - Value versus Pointer
+  - Getting a Pointer
+  - Getting a Value from a Pointer
+  - Function Design with Pointers
+  - Pointer Value Swap
+- Constants
+ - Enums
+- Scope
 
 ### 2: Logic and Loops
 Introduction

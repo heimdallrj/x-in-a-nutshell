@@ -16,14 +16,14 @@ This course is specially designed for individuals with prior programming backgro
 - Using Variables, Packages, and Functions to Print Stars
   - Defining and Printing
 - Declaring Variables 
-  - Declaring a Variable Using var
-  - Declaring Multiple Variables at Once with var
+  - Declaring a Variable Using `var`
+  - Declaring Multiple Variables at Once with `var`
   - Skipping the Type or Value When Declaring Variables
   - Type Inference Gone Wrong
   - Short Variable Declaration
   - Declaring Multiple Variables with a Short Variable Declaration
   - Declaring Multiple Variables from a Function
-  - Using var to Declare Multiple Variables in One Line
+  - Using `var` to Declare Multiple Variables in One Line
   - Non-English Variable Names
   - Changing the Value of a Variable
   - Changing Multiple Values at Once
@@ -43,30 +43,25 @@ This course is specially designed for individuals with prior programming backgro
 - Scope
 
 ### 2: Logic and Loops
-Introduction
-if Statements
-Exercise 2.01: A Simple if Statement
-if else Statements
-Exercise 2.02: Using an if else Statement
-else if Statements
-Exercise 2.03: Using an else if Statement
-The Initial if Statement
-Exercise 2.04: Implementing the Initial if Statements
-Activity 2.01: Implementing FizzBuzz
-Expression switch Statements
-Exercise 2.05: Using a switch Statement
-Exercise 2.06: switch Statements and Multiple case Values
-Exercise 2.07: Expressionless switch Statements
-Loops
-Exercise 2.08: Using the for i Loop
-Exercise 2.09: Looping Over Arrays and Slices
-The range Loop
-Exercise 2.10: Looping Over a Map
-Activity 2.02: Looping Over Map Data Using range
-break and continue
-Exercise 2.11: Using break and continue to Control Loops
-Activity 2.03: Bubble Sort
-Summary
+- Introduction
+- Logic
+  - `if` Statements
+  - `if else` Statements
+  - `else if` Statements
+  - The Initial `if` Statement
+  - Expression `switch` Statements
+    - Using a `switch` Statement
+    - `switch` Statements and Multiple `case` Values
+    - Expressionless `switch` Statements
+- Loops
+  - The `for i` Loop
+  - Looping Over Arrays and Slices
+  - The `range` Loop
+  - Looping Over a Map
+  - Looping Over Map Data Using `range`
+  - `break` and `continue`
+  - Using `break` and `continue` to Control Loops
+  - Bubble Sort
 
 ### 3: Core Types
 Introduction 

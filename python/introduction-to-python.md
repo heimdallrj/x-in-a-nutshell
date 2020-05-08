@@ -11,7 +11,7 @@ This course is specially designed for individuals with prior programming backgro
 Python Programming - Basics for Non-Programmers
 
 ## Course Outline
-- Fundamentals of  Python – Math, Strings, Conditionals, and Loops
+### Fundamentals of  Python – Math, Strings, Conditionals, and Loops
 - Numbers: Operations, Types, and Variables
 - To Open a Jupyter Notebook
 - Python as a Calculator
@@ -23,7 +23,7 @@ Python Programming - Basics for Non-Programmers
 - Complex Number Types
 - Errors in Python
 
-## Variables
+### Variables
 - Variable Assignment
 - Changing Types
 - Reassigning Variables in Terms of Themselves
@@ -33,7 +33,7 @@ Python Programming - Basics for Non-Programmers
 - Docstrings
 - Theorem in Python
 
-## Strings: Concatenation, Methods, and `input()`
+### Strings: Concatenation, Methods, and `input()`
 - String Syntax
 - Escape Sequences with Quotes
 - Multi-Line Strings
@@ -45,71 +45,72 @@ Python Programming - Basics for Non-Programmers
 - The `len()` Function
 - String Methods
 - Casting
-- The input() Function
+- The `input()` Function
 - String Indexing and Slicing
 - Indexing
 - Slicing
 - Strings and Their Methods
 
-## Booleans and Conditionals
+### Booleans and Conditionals
 - Booleans
 - Logical Operators
 - Comparison Operators
 - Comparing Strings
 - Conditionals
-- The if Syntax
+- The `if` Syntax
 - Indentation
-if else
-The elif Statement
-Loops
-The while Loops
-An Infinite Loop
-break
-Programs
-The for Loop
-The continue Keyword
+- `if - else`
+- The `elif` Statement
 
-Python Structures
-The Power of Lists
-List Methods
-Accessing an Item from a List
-Adding an Item to a List
-Dictionary Keys and Values
-a List and a Dictionary
-Zipping and Unzipping Dictionaries Using zip()
-Dictionary Methods
-Tuples
-A Survey of Sets
-Set Operations
-Choosing Types
+### Loops
+- The `while` Loops
+- An Infinite Loop
+- `break`
+- Programs
+- The `for` Loop
+- The `continue` Keyword
 
-Executing Python – Programs
-Algorithms, and Functions
-Introduction
-Python Scripts and Modules
-Shebangs in Ubuntu
-Docstrings
-Imports
-The if __name__ == "__main__" Statement
-Basic Functions
-Positional Arguments
-Keyword Arguments
-Iterative Functions
-Exiting Early
-Activity 10: The Fibonacci Function with an Iteration
-Helper Functions
-Don't Repeat Yourself
-Variable Scope
-Variables
-Defining inside versus outside a Function
-The Global Keyword
-The Nonlocal Keyword
-Lambda Functions
-Mapping with Lambda Functions
-Filtering with Lambda Functions
-Sorting with Lambda Functions
+### Python Structures
+- The Power of Lists
+- List Methods
+- Accessing an Item from a List
+- Adding an Item to a List
+- Dictionary Keys and Values
+- a List and a Dictionary
+- Zipping and Unzipping Dictionaries Using `zip()`
+- Dictionary Methods
+- Tuples
+- A Survey of Sets
+- Set Operations
+- Choosing Types
 
-Extending Python, Files, Errors, and Graphs
-Reading Files
-Writing Files
-the Date and Time in a Text File
+### Executing Python – Programs
+- Algorithms, and Functions
+- Introduction
+- Python Scripts and Modules
+- Shebangs in Ubuntu
+- Docstrings
+- Imports
+- The if `__name__ == "__main__"` Statement
+- Basic Functions
+- Positional Arguments
+- Keyword Arguments
+- Iterative Functions
+- Exiting Early
+- Activity 10: The Fibonacci Function with an Iteration
+- Helper Functions
+- Don't Repeat Yourself
+- Variable Scope
+- Variables
+- Defining inside versus outside a Function
+- The Global Keyword
+- The Nonlocal Keyword
+- Lambda Functions
+- Mapping with Lambda Functions
+- Filtering with Lambda Functions
+- Sorting with Lambda Functions
+
+### Extending Python, Files, Errors, and Graphs
+- Reading Files
+- Writing Files
+- the Date and Time in a Text File

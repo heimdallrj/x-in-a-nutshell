@@ -43,59 +43,59 @@ Before attending this course, it is recommended that students:
 ## Course Outline
 Note: the course material contains much more information than what is covered in class, but will serve as a useful reference to the learner going forward.
 
-- An introduction to Python
-  - Introduction to Python
-  - How to use IDLE to develop programs
+### An introduction to Python
+- Introduction to Python
+- How to use IDLE to develop programs
 
-- How to write your first program
-  - Basic coding skills
-  - How to work with data types and variables
-  - How to work with numeric data
-  - How to work with string data
-  - How to use five of the Python functions
+### How to write your first program
+- Basic coding skills
+- How to work with data types and variables
+- How to work with numeric data
+- How to work with string data
+- How to use five of the Python functions
 
-- How to code control statements
-  - How to code boolean expressions
-  - How to code the selection structure
-  - How to use the iteration structure
+### How to code control statements
+- How to code boolean expressions
+- How to code the selection structure
+- How to use the iteration structure
 
-- How to define and use functions and modules
-  - How to define and use functions
-  - More skills for defining and using functions
-  - How to create and use modules
-  - How to use standard modules
-  - How to plan the functions of a program
+### How to define and use functions and modules
+- How to define and use functions
+- More skills for defining and using functions
+- How to create and use modules
+- How to use standard modules
+- How to plan the functions of a program
 
-- How to test and debug a program
-  - An introduction to testing and debugging
-  - Four techniques for testing and debugging
-  - How to use the IDLE debugger
+### How to test and debug a program
+- An introduction to testing and debugging
+- Four techniques for testing and debugging
+- How to use the IDLE debugger
 
-- How to work with lists and tuples
-  - Basic skills for working with lists
-  - How to work with a list of lists
-  - More skills for working with lists
-  - How to work with tuples
+### How to work with lists and tuples
+- Basic skills for working with lists
+- How to work with a list of lists
+- More skills for working with lists
+- How to work with tuples
 
-- How to work with file I/O
-  - An introduction to file I/O
-  - How to use text files
-  - How to use CSV files
-  - How to use binary files
+### How to work with file I/O
+- An introduction to file I/O
+- How to use text files
+- How to use CSV files
+- How to use binary files
 
-- How to handle exceptions
-  - How to handle a single exception
-  - How to handle multiple exceptions
+### How to handle exceptions
+- How to handle a single exception
+- How to handle multiple exceptions
 
-- How to work with numbers
-  - Basic skills for working with numbers
-  - How to format numbers
-  - How to work with decimal numbers
+### How to work with numbers
+- Basic skills for working with numbers
+- How to format numbers
+- How to work with decimal numbers
 
-- How to work with strings
-  - Basic skills for working with strings
-  - How to split and join strings
+### How to work with strings
+- Basic skills for working with strings
+- How to split and join strings
 
-- How to work with dates and times
-  - How to get started with dates and times
-  - More skills for working with dates and times
+### How to work with dates and times
+- How to get started with dates and times
+- More skills for working with dates and times

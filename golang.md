@@ -55,12 +55,12 @@ This course is specially designed for individuals with prior programming backgro
     - Expressionless `switch` Statements
 - Loops
   - The `for i` Loop
-  - Looping Over Arrays and Slices
+    - Looping Over Arrays and Slices
   - The `range` Loop
-  - Looping Over a Map
-  - Looping Over Map Data Using `range`
+    - Looping Over a Map
+    - Looping Over Map Data Using `range`
   - `break` and `continue`
-  - Using `break` and `continue` to Control Loops
+    - Using `break` and `continue` to Control Loops
   - Bubble Sort
 
 ### 3: Core Types

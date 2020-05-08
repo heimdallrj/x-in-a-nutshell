@@ -41,7 +41,6 @@ Before attending this course, it is recommended that students:
 * Prior programming experience is not necessary, but it can help to put these topics in perspective
 
 ## Course Outline
-Note: the course material contains much more information than what is covered in class, but will serve as a useful reference to the learner going forward.
 
 ### An introduction to Python
 - Introduction to Python

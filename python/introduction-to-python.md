@@ -92,7 +92,7 @@ Programming Basics for Non-Programmers with Python
 - Shebangs in Ubuntu
 - Docstrings
 - Imports
-- The `Redcarpet.new("if __name__ == "__main__"`{:.python}` Statement
+- The `if __name__ == "__main__"` Statement
 - Basic Functions
 - Positional Arguments
 - Keyword Arguments

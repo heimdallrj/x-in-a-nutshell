@@ -11,6 +11,7 @@ This course is specially designed for individuals with prior programming backgro
 Programming Basics for Non-Programmers with Python
 
 ## Course Outline
+
 ### Fundamentals of  Python – Math, Strings, Conditionals, and Loops
 - Numbers: Operations, Types, and Variables
 - To Open a Jupyter Notebook

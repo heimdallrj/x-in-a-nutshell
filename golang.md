@@ -13,16 +13,13 @@ This course is specially designed for individuals with prior programming backgro
 ### 1: Variables and Operators
 - Introduction 
 - What Does Go Look Like?
-- Exercise 1.01: Using Variables, Packages, and Functions to Print Stars
-- Activity 1.01 Defining and Printing
+- Using Variables, Packages, and Functions to Print Stars
+  - Defining and Printing
 - Declaring Variables 
-- Declaring a Variable Using var
-Exercise 1.02: Declaring a Variable Using var
-Declaring Multiple Variables at Once with var
-Exercise 1.03: Declaring Multiple Variables at Once with var
-Skipping the Type or Value When Declaring Variables
-Exercise 1.04: Skipping the Type or Value When Declaring Variables
-Type Inference Gone Wrong
+  - Declaring a Variable Using var
+  - Declaring Multiple Variables at Once with var
+  - Skipping the Type or Value When Declaring Variables
+  - Type Inference Gone Wrong
 Short Variable Declaration
 Exercise 1.05: Implementing Short Variable Declaration
 Declaring Multiple Variables with a Short Variable Declaration

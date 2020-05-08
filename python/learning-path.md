@@ -169,6 +169,7 @@ And a Class is like a blueprint of the state and actions that an object can take
 
 For example, in Python, a Person Class might look something like this.
 
+```python
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -176,13 +177,14 @@ class Person:
   
   def get_name(self):
     return self.name
+```
 The class declared above describes the state and actions of any Person object.
 
 For example, any Person object will have a name and an age. These two fields are what determines the state of the object.
 
 In OOP’s terminology, name and age are called the object attributes.
 
-You can also call get_name() on any Person object to return the name of the person.
+You can also call `get_name()` on any Person object to return the name of the person.
 
 We call get_name a method.
 
@@ -192,9 +194,12 @@ In other words, a Python object has attributes and methods that are defined in t
 
 Here’s how to create a Person object
 
+```python
 >>> p = Person('Alice', 22)
 >>> p.get_name()
 'Alice'
+```
+
 Object-oriented programming is essentially one way of structuring and designing your code.
 
 However, I want you to understand that it is not the only way, and it is not necessarily the best way.
@@ -228,10 +233,7 @@ Again keep solving more problems using Python, but try to structure your solutio
 
 The more you practice, the more you will feel at ease with OOP.
 
-
-
 ## Level 2: Concurrent and Parallel Programming
-
 
 The days of single-core processors are far gone.
 

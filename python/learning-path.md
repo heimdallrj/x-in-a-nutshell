@@ -101,12 +101,14 @@ Conditional statements using if, if else, or if elsif else gives you this abilit
 
 Here is an example of an if-else statement in Python.
 
+```python
 >>> if 3 > 5:
 ...   print('3 is greater than 5')
 ... else:
 ...   print('3 is not greater than 5')
 ...
 3 is not greater than 5
+```
 
 ### Functions
 A function is essentially a block of Python code that only runs when it is called.

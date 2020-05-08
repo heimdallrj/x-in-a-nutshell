@@ -517,7 +517,7 @@ Knowing what libraries to use and when to use them can save you a lot of time an
 
 So let’s talk about some of the most popular Python libraries and frameworks.
 
-1. Building API services with Python (Flask)
+#### 1. Building API services with Python (Flask)
 These days, the way large and scalable web applications are built is by creating a bunch of smaller applications that communicate with each other.
 
 This architecture is called a micro-services architecture [buzzword alert] and each of these smaller applications is called a service or micro-service.
@@ -532,7 +532,7 @@ And one of the most popular Python libraries that make this super easy is Flask.
 
 Here is a good tutorial about Flask.
 
-2. Building Web applications with Django
+#### 2. Building Web applications with Django
 Django is a full-fledged web framework that allows you to create an entire web application (both front-end and back-end) in Python.
 
 By learning Django, you will also be introduced to some concepts that are very popular in other web frameworks in other languages like MVC (model-view-controller) and ORM (object-relational mapper).
@@ -543,7 +543,7 @@ And while we’re at the topic of ORM, It’s worth mentioning that you should t
 
 So roll up your sleeves and go ahead, create your first web application 🙂
 
-3. Machine Learning Libraries
+#### 3. Machine Learning Libraries
 Python has become the de-facto language for machine learning and data science.
 
 This comes as no surprise, given the maturity of Python’s machine learning libraries.
@@ -556,11 +556,9 @@ If you prefer a video course instead, then you should take Andrew Ng’s ML cour
 
 Once you have the basics covered, start playing around with these Python libraries.
 
-1- scikit-learn This library has everything under the sun when it comes to ML algorithms.
-
-2- Tensorflow Another very popular open-source machine learning framework.
-
-3- pandas A popular data analysis library.
+1. scikit-learn This library has everything under the sun when it comes to ML algorithms.
+2. Tensorflow Another very popular open-source machine learning framework.
+3. pandas A popular data analysis library.
 
 ### Optional 2: Python Implementation (CPython)
 Python is an interpreted language.

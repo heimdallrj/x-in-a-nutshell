@@ -104,15 +104,13 @@ This course is specially designed for individuals with prior programming backgro
   - Background Behavior of Slices 
   - Controlling Internal Slice Behavior
 #### Map Fundamentals
-Exercise 4.13: Creating, Reading, and Writing a Map
-Reading from Maps
-Exercise 4.14: Reading from a Map
-Activity 4.04: Slicing the Week
-Deleting Elements from a Map
-Exercise 4.15: Deleting an Element from a Map
-Activity 4.05: Removing an Element from a Slice
+- Creating, Reading, and Writing a Map
+  - Reading from Maps
+  - Slicing the Week
+  - Deleting Elements from a Map
+  - Removing an Element from a Slice
 #### Simple Custom Types 
-Exercise 4.16: Creating a Simple Custom Type
+  - Creating a Simple Custom Type
 #### Structs
 Exercise 4.17: Creating Struct Types and Values
 Comparing Structs to Each Other
